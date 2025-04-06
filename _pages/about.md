@@ -62,7 +62,7 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2024</div><img src='images_paper\ReFusion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ReFusion: Learning Image Fusion from Reconstruction with Learnable Loss Via Meta-Learning**
