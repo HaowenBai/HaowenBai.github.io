@@ -127,6 +127,22 @@ Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Kai Zhang, Shuang Xu,
 
 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images_paper\DDFM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**DDFM: denoising diffusion model for multi-modality image fusion**
+
+IEEE/CVF International Conference on Computer Vision (**ICCV** <span style="color:red">Oral</span>), 2023.
+
+Zixiang Zhao, **Haowen Bai**, Yuanzhi Zhu, Jiangshe Zhang, Shuang Xu, Yulun Zhang, Kai Zhang, Deyu Meng, Radu Timofte, Luc Van Gool
+
+[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
+- .... 
+</div>
+</div>
+
+
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images_paper\CDDFuse.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -141,7 +157,19 @@ Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Shuang Xu, Zudi Lin, 
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2023</div><img src='images_paper\CSCFuse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
+**Deep convolutional sparse coding networks for interpretable image fusion**
+
+IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (**CVPRW**), 2023.
+
+Zixiang Zhao, Jiangshe Zhang, **Haowen Bai**, Yicheng Wang, Yukun Cui, Lilun Deng, Kai Sun, Chunxia Zhang, Junmin Liu, Shuang Xu
+
+[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
+- .... 
+</div>
+</div>
 
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
