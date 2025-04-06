@@ -31,7 +31,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 highlight</div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight</div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Task-driven Image Fusion with Learnable Fusion Loss**
@@ -95,19 +95,52 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 
 
-- `ICML 2024` [GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://openreview.net/forum?id=YfwMIDhPccD)
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='images_paper\Film.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
 
-, Zhenhui Ye, Ziyue Jiang, **Yi Ren**, et al.
+**Image fusion via vision-language model**
 
-, Zhenhui Ye, Ziyue Jiang, **Yi Ren**, et al.
+Forty-first International Conference on Machine Learning (**ICML**), 2024.
 
-- `CVPR 2024` [GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://openreview.net/forum?id=YfwMIDhPccD), Zhenhui Ye, Ziyue Jiang, **Yi Ren**, et al.
+Zixiang Zhao, Lilun Deng, **Haowen Bai**, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool 
 
-- `ICCV 2023` [GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://openreview.net/forum?id=YfwMIDhPccD), Zhenhui Ye, Ziyue Jiang, **Yi Ren**, et al.
+[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
+- .... 
+</div>
+</div>
 
-- `CVPR 2023` [GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://openreview.net/forum?id=YfwMIDhPccD), Zhenhui Ye, Ziyue Jiang, **Yi Ren**, et al.
 
-- `CVPRW 2023` [GeneFace: Generalized and High-Fidelity Audio-Driven 3D Talking Face Synthesis](https://openreview.net/forum?id=YfwMIDhPccD), Zhenhui Ye, Ziyue Jiang, **Yi Ren**, et al.
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images_paper\EMMA.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Equivariant multi-modality image fusion**
+
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2024.
+
+Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Kai Zhang, Shuang Xu, Dongdong Chen, Radu Timofte, Luc Van Gool
+
+[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
+- .... 
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images_paper\CDDFuse.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**CDDfuse: Correlation-Driven Dual-branch feature decomposition for multi-modality image fusion**
+
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023.
+
+Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Shuang Xu, Zudi Lin, Radu Timofte, Luc Van Gool
+
+[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
+- .... 
+</div>
+</div>
+
 
 
 
