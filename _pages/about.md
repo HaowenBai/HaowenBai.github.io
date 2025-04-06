@@ -37,7 +37,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 
 **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
-[**[Paper]**]() \| [**[ArXiv]**]() \| [**[Code]**]() 
+[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
 - .... 
 </div>
 </div>
