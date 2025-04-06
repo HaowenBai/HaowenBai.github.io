@@ -36,7 +36,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 **Task-driven Image Fusion with Learnable Fusion Loss**
 
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR** <span style="color:red">(Highlight)</span>), 2025.
 
 **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
