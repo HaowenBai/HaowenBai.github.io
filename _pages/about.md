@@ -33,9 +33,9 @@ My research interest includes neural machine translation and computer vision. I 
 
 [Task-driven Image Fusion with Learnable Fusion Loss]()
 
-**Haowen Bai**, Jiangshe Zhang*, Zixiang Zhao*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
+**Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
-[**Code**]() [**ArXiv**]() 
+[**[Paper]**](), [**[ArXiv]**]() [**[Code]**]() 
 - .... 
 </div>
 </div>
