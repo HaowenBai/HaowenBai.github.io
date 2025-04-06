@@ -47,6 +47,8 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCSVT 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
+<strong style="font-weight: 800;">Deep Unfolding Multi-modal Image Fusion Network via Attribution Analysis</strong>
+
 **Deep Unfolding Multi-modal Image Fusion Network via Attribution Analysis**
 
 IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4), pp. 3498-3511, 2025.
