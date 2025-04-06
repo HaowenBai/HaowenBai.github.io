@@ -32,7 +32,9 @@ My research interest includes neural machine translation and computer vision. I 
 <div class='paper-box-text' markdown="1">
 
 **Task-driven Image Fusion with Learnable Fusion Loss**
+
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
+
 **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
 [**[Paper]**](), [**[ArXiv]**](), [**[Code]**]() 
@@ -40,11 +42,31 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2024 highlight</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCSVT 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Deep Unfolding Multi-modal Image Fusion Network via Attribution Analysis**
+
+IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4), pp. 3498-3511, 2025.
+
+**Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Baisong Jiang, Lilun Deng, Yukun Cui, Shuang Xu, Chunxia Zhang
+
+[**[Paper]**](), [**[ArXiv]**](), [**[Code]**]() 
+- .... 
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCV 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **ReFusion: Learning Image Fusion from Reconstruction with Learnable Loss Via Meta-Learning**
+
 International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
+
 **Haowen Bai**, Zixiang Zhao\*, Jiangshe Zhang\*, Yichen Wu, Lilun Deng, Yukun Cui, Baisong Jiang, Shuang Xu
 
 [**[Paper]**](), [**[ArXiv]**](), [**[Code]**]() 
