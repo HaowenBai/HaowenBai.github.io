@@ -53,7 +53,7 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4
 
 **Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Baisong Jiang, Lilun Deng, Yukun Cui, Shuang Xu, Chunxia Zhang
 
-[**[Paper]**]() \| [**[ArXiv]**]() \| [**[Code]**]() 
+[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
 - .... 
 </div>
 </div>
@@ -69,7 +69,7 @@ International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
 
 **Haowen Bai**, Zixiang Zhao\*, Jiangshe Zhang\*, Yichen Wu, Lilun Deng, Yukun Cui, Baisong Jiang, Shuang Xu
 
-[**[Paper]**]() \| [**[ArXiv]**]() \| [**[Code]**]() 
+[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
 - .... 
 </div>
 </div>
@@ -85,7 +85,7 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 **Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Yukun Cui, Chunxia Zhang\*, Zhenbo Guo, Yongjun Wang
 
-[**[Paper]**]() \| [**[ArXiv]**]() \| [**[Code]**]() 
+[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
 - .... 
 </div>
 </div>
