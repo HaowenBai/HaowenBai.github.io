@@ -29,6 +29,10 @@ My research interest includes neural machine translation and computer vision. I 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
+# 📖 Educations
+- *2020.09 - Present*, Ph.D. in Statistics, Xi'an Jiaotong University.
+- *2016.09 - 2020.06*, B.S. in Information and Computing Science, Dalian University of Technology. 
+
 # 📝 Publications 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight</div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
@@ -178,9 +182,7 @@ Zixiang Zhao, Jiangshe Zhang, **Haowen Bai**, Yicheng Wang, Yukun Cui, Lilun Den
 - *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-# 📖 Educations
-- *2020.09 - Present*, Ph.D. in Statistics, Xi'an Jiaotong University.
-- *2016.09 - 2020.06*, B.S. in Information and Computing Science, Dalian University of Technology. 
+
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
