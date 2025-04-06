@@ -33,7 +33,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 **Task-driven Image Fusion with Learnable Fusion Loss**
 
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 
 **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
@@ -46,8 +46,6 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025.
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCSVT 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
-
-<strong style="font-weight: 2000;">Deep Unfolding Multi-modal Image Fusion Network via Attribution Analysis</strong>
 
 **Deep Unfolding Multi-modal Image Fusion Network via Attribution Analysis**
 
@@ -70,6 +68,22 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4
 International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
 
 **Haowen Bai**, Zixiang Zhao\*, Jiangshe Zhang\*, Yichen Wu, Lilun Deng, Yukun Cui, Baisong Jiang, Shuang Xu
+
+[**[Paper]**](), [**[ArXiv]**](), [**[Code]**]() 
+- .... 
+</div>
+</div>
+
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Simultaneous Automatic Picking and Manual Picking Refinement for First-Break**
+
+IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 2024.
+
+**Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Yukun Cui, Chunxia Zhang\*, Zhenbo Guo, Yongjun Wang
 
 [**[Paper]**](), [**[ArXiv]**](), [**[Code]**]() 
 - .... 
