@@ -30,7 +30,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 📝 Publications 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 highlight</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 highlight</div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Task-driven Image Fusion with Learnable Fusion Loss**
@@ -46,7 +46,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCSVT 2025</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TCSVT 2025</div><img src='images_paper\UAAFusion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Deep Unfolding Multi-modal Image Fusion Network via Attribution Analysis**
@@ -78,7 +78,7 @@ International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS 2024</div><img src='images/500x300.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TGRS 2024</div><img src='images_paper\SPR.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Simultaneous Automatic Picking and Manual Picking Refinement for First-Break**
