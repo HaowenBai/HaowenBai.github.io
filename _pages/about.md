@@ -100,7 +100,7 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10530364) \| 
 [**ArXiv**](https://arxiv.org/abs/2502.01474)
-- .... 
+- Propose a novel approach that jointly optimizes label refinement and first-break picking performance in microseismic data by integrating a latent variable representation of true first-break times into a probabilistic model
 </div>
 </div>
 
