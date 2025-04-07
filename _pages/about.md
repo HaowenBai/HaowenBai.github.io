@@ -45,8 +45,8 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
 [**Paper**]() \| 
-[**ArXiv**]() \| 
-[**Code**]() 
+[**ArXiv**](https://arxiv.org/abs/2412.03240) \| 
+[**Code**](https://github.com/HaowenBai/TDFusion) 
 - .... 
 </div>
 </div>
@@ -62,9 +62,9 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4
 
 **Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Baisong Jiang, Lilun Deng, Yukun Cui, Shuang Xu, Chunxia Zhang
 
-[**Paper**]() \| 
-[**ArXiv**]() \| 
-[**Code**]() 
+[**Paper**](https://ieeexplore.ieee.org/abstract/document/10769519) \| 
+[**ArXiv**](https://arxiv.org/abs/2502.01467) \| 
+[**Code**](https://github.com/HaowenBai/UAAFusion) 
 - .... 
 </div>
 </div>
@@ -80,9 +80,9 @@ International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
 
 **Haowen Bai**, Zixiang Zhao\*, Jiangshe Zhang\*, Yichen Wu, Lilun Deng, Yukun Cui, Baisong Jiang, Shuang Xu
 
-[**Paper**]() \| 
-[**ArXiv**]() \| 
-[**Code**]() 
+[**Paper**](https://link.springer.com/article/10.1007/s11263-024-02256-8) \| 
+[**ArXiv**](https://arxiv.org/abs/2312.07943) \| 
+[**Code**](https://github.com/HaowenBai/ReFusion) 
 - .... 
 </div>
 </div>
@@ -98,9 +98,8 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 **Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Yukun Cui, Chunxia Zhang\*, Zhenbo Guo, Yongjun Wang
 
-[**Paper**]() \| 
-[**ArXiv**]() \| 
-[**Code**]() 
+[**Paper**](https://ieeexplore.ieee.org/abstract/document/10530364) \| 
+[**ArXiv**](https://arxiv.org/abs/2502.01474)
 - .... 
 </div>
 </div>
@@ -120,7 +119,7 @@ Zixiang Zhao, Lilun Deng, **Haowen Bai**, Yukun Cui, Zhipeng Zhang, Yulun Zhang,
 [**Paper**](https://openreview.net/pdf?id=eqY64Z1rsT) \| 
 [**ArXiv**](https://arxiv.org/abs/2402.02235) \| 
 [**Code**](https://github.com/Zhaozixiang1228/IF-FILM) 
-- .... 
+- Introduce a novel fusion paradigm, for the first time, utilizing explicit textual information to guide image fusion
 </div>
 </div>
 
