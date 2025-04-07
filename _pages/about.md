@@ -131,7 +131,7 @@ Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Kai Zhang, Shuang Xu,
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023</div><img src='images_paper\DDFM.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023 Oral</div><img src='images_paper\DDFM.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **DDFM: denoising diffusion model for multi-modality image fusion**
