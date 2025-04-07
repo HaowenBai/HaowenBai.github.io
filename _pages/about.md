@@ -40,7 +40,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 **Task-driven Image Fusion with Learnable Fusion Loss**
 
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR** <span style="color:red">Highlight</span>), 2025.
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025. <span style="color:red">(Highlight)</span>
 
 **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
@@ -136,7 +136,7 @@ Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Kai Zhang, Shuang Xu,
 
 **DDFM: denoising diffusion model for multi-modality image fusion**
 
-IEEE/CVF International Conference on Computer Vision (**ICCV** <span style="color:red">Oral</span>), 2023.
+IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023. <span style="color:red">(Oral)</span>
 
 Zixiang Zhao, **Haowen Bai**, Yuanzhi Zhu, Jiangshe Zhang, Shuang Xu, Yulun Zhang, Kai Zhang, Deyu Meng, Radu Timofte, Luc Van Gool
 
