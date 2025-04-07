@@ -44,7 +44,9 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 
 **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
-[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
+[**Paper**]() \| 
+[**ArXiv**]() \| 
+[**Code**]() 
 - .... 
 </div>
 </div>
@@ -60,7 +62,9 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4
 
 **Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Baisong Jiang, Lilun Deng, Yukun Cui, Shuang Xu, Chunxia Zhang
 
-[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
+[**Paper**]() \| 
+[**ArXiv**]() \| 
+[**Code**]() 
 - .... 
 </div>
 </div>
@@ -76,7 +80,9 @@ International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
 
 **Haowen Bai**, Zixiang Zhao\*, Jiangshe Zhang\*, Yichen Wu, Lilun Deng, Yukun Cui, Baisong Jiang, Shuang Xu
 
-[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
+[**Paper**]() \| 
+[**ArXiv**]() \| 
+[**Code**]() 
 - .... 
 </div>
 </div>
@@ -92,7 +98,9 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 **Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Yukun Cui, Chunxia Zhang\*, Zhenbo Guo, Yongjun Wang
 
-[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
+[**Paper**]() \| 
+[**ArXiv**]() \| 
+[**Code**]() 
 - .... 
 </div>
 </div>
@@ -108,7 +116,10 @@ Forty-first International Conference on Machine Learning (**ICML**), 2024.
 
 Zixiang Zhao, Lilun Deng, **Haowen Bai**, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool 
 
-[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
+[**Project Page**](https://zhaozixiang1228.github.io/Project/IF-FILM/) \| 
+[**Paper**](https://openreview.net/pdf?id=eqY64Z1rsT) \| 
+[**ArXiv**](https://arxiv.org/abs/2402.02235) \| 
+[**Code**](https://github.com/Zhaozixiang1228/IF-FILM) 
 - .... 
 </div>
 </div>
@@ -124,8 +135,10 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2024.
 
 Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Kai Zhang, Shuang Xu, Dongdong Chen, Radu Timofte, Luc Van Gool
 
-[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
-- .... 
+[**Paper**](https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Equivariant_Multi-Modality_Image_Fusion_CVPR_2024_paper.html) \| 
+[**ArXiv**](https://arxiv.org/abs/2305.11443) \| 
+[**Code**](https://github.com/Zhaozixiang1228/MMIF-EMMA) 
+- Propose a novel end-to-end self-supervised fusion algorithm based on the equivariant sensing and imaging prior
 </div>
 </div>
 
@@ -140,8 +153,10 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023. <span sty
 
 Zixiang Zhao, **Haowen Bai**, Yuanzhi Zhu, Jiangshe Zhang, Shuang Xu, Yulun Zhang, Kai Zhang, Deyu Meng, Radu Timofte, Luc Van Gool
 
-[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
-- .... 
+[**Paper**](https://openaccess.thecvf.com/content/ICCV2023/html/Zhao_DDFM_Denoising_Diffusion_Model_for_Multi-Modality_Image_Fusion_ICCV_2023_paper.html) \| 
+[**ArXiv**](https://arxiv.org/abs/2303.06840) \| 
+[**Code**](https://github.com/Zhaozixiang1228/MMIF-DDFM) 
+- Propose a novel fusion algorithm based on the denoising diffusion sampling model
 </div>
 </div>
 
@@ -156,8 +171,10 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023.
 
 Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Shuang Xu, Zudi Lin, Radu Timofte, Luc Van Gool
 
-[**Paper**]() \| [**ArXiv**]() \| [**Code**]() 
-- .... 
+[**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.html) \| 
+[**ArXiv**](https://arxiv.org/abs/2211.14461) \| 
+[**Code**](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) 
+- Propose a Correlation-Driven feature Decomposition Fusion (CDDFuse) network for multi-modality image fusion
 </div>
 </div>
 
