@@ -47,7 +47,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 [**Paper**]() \| 
 [**ArXiv**](https://arxiv.org/abs/2412.03240) \| 
 [**Code**](https://github.com/HaowenBai/TDFusion) 
-- A task-driven image fusion framework that employs a learnable fusion loss guided by downstream task objectives through meta-learning, enabling adaptive fusion optimization for improved performance in downstream tasks like semantic segmentation and object detection.
+- A task-driven image fusion framework that employs a learnable fusion loss guided by downstream task objectives through meta-learning, enabling adaptive fusion optimization for improved performance in downstream tasks.
 </div>
 </div>
 
