@@ -83,7 +83,7 @@ International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
 [**Paper**](https://link.springer.com/article/10.1007/s11263-024-02256-8) \| 
 [**ArXiv**](https://arxiv.org/abs/2312.07943) \| 
 [**Code**](https://github.com/HaowenBai/ReFusion) 
-- Propose a meta-learning-based image fusion framework that dynamically optimizes task-specific loss functions through source image reconstruction.
+- Propose a meta-learning-based image fusion framework that dynamically optimizes task-specific loss functions through source image reconstruction to preserve optimal source information.
 </div>
 </div>
 
