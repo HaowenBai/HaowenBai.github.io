@@ -47,7 +47,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 [**Paper**]() \| 
 [**ArXiv**](https://arxiv.org/abs/2412.03240) \| 
 [**Code**](https://github.com/HaowenBai/TDFusion) 
-- .... 
+- A task-driven image fusion framework that employs a learnable fusion loss guided by downstream task objectives through meta-learning, enabling adaptive fusion optimization for improved performance in tasks like semantic segmentation and object detection without relying on predefined fusion criteria.
 </div>
 </div>
 
@@ -65,7 +65,7 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10769519) \| 
 [**ArXiv**](https://arxiv.org/abs/2502.01467) \| 
 [**Code**](https://github.com/HaowenBai/UAAFusion) 
-- .... 
+- An attribution-guided fusion framework that optimizes multi-modal image synthesis for semantic segmentation via unfolding networks and adaptive loss design, prioritizing task-critical features through attribution maps while addressing information loss with memory-augmented modules.
 </div>
 </div>
 
