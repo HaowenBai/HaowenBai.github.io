@@ -83,7 +83,7 @@ International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
 [**Paper**](https://link.springer.com/article/10.1007/s11263-024-02256-8) \| 
 [**ArXiv**](https://arxiv.org/abs/2312.07943) \| 
 [**Code**](https://github.com/HaowenBai/ReFusion) 
-- .... 
+- Propose a meta-learning-based image fusion framework that dynamically optimizes task-specific loss functions through source image reconstruction.
 </div>
 </div>
 
@@ -100,7 +100,7 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10530364) \| 
 [**ArXiv**](https://arxiv.org/abs/2502.01474)
-- Propose a novel approach that jointly optimizes label refinement and first-break picking performance in microseismic data by integrating a latent variable representation of true first-break times into a probabilistic model
+- Propose a novel approach that jointly optimizes label refinement and first-break picking performance in microseismic data by integrating a latent variable representation of true first-break times into a probabilistic model.
 </div>
 </div>
 
@@ -119,7 +119,7 @@ Zixiang Zhao, Lilun Deng, **Haowen Bai**, Yukun Cui, Zhipeng Zhang, Yulun Zhang,
 [**Paper**](https://openreview.net/pdf?id=eqY64Z1rsT) \| 
 [**ArXiv**](https://arxiv.org/abs/2402.02235) \| 
 [**Code**](https://github.com/Zhaozixiang1228/IF-FILM) 
-- Introduce a novel fusion paradigm, for the first time, utilizing explicit textual information to guide image fusion
+- Introduce a novel fusion paradigm, for the first time, utilizing explicit textual information to guide image fusion.
 </div>
 </div>
 
@@ -137,7 +137,7 @@ Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Kai Zhang, Shuang Xu,
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Equivariant_Multi-Modality_Image_Fusion_CVPR_2024_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2305.11443) \| 
 [**Code**](https://github.com/Zhaozixiang1228/MMIF-EMMA) 
-- Propose a novel end-to-end self-supervised fusion algorithm based on the equivariant sensing and imaging prior
+- Propose a novel end-to-end self-supervised fusion algorithm based on the equivariant sensing and imaging prior.
 </div>
 </div>
 
@@ -155,7 +155,7 @@ Zixiang Zhao, **Haowen Bai**, Yuanzhi Zhu, Jiangshe Zhang, Shuang Xu, Yulun Zhan
 [**Paper**](https://openaccess.thecvf.com/content/ICCV2023/html/Zhao_DDFM_Denoising_Diffusion_Model_for_Multi-Modality_Image_Fusion_ICCV_2023_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2303.06840) \| 
 [**Code**](https://github.com/Zhaozixiang1228/MMIF-DDFM) 
-- Propose a novel fusion algorithm based on the denoising diffusion sampling model
+- Propose a novel fusion algorithm based on the denoising diffusion sampling model.
 </div>
 </div>
 
@@ -173,7 +173,7 @@ Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Shuang Xu, Zudi Lin, 
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2211.14461) \| 
 [**Code**](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) 
-- Propose a Correlation-Driven feature Decomposition Fusion (CDDFuse) network for multi-modality image fusion
+- Propose a Correlation-Driven feature Decomposition Fusion (CDDFuse) network for multi-modality image fusion.
 </div>
 </div>
 
@@ -188,7 +188,7 @@ Zixiang Zhao, Jiangshe Zhang, **Haowen Bai**, Yicheng Wang, Yukun Cui, Lilun Den
 
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2023W/AML/html/Zhao_Deep_Convolutional_Sparse_Coding_Networks_for_Interpretable_Image_Fusion_CVPRW_2023_paper.html) \| 
 [**Code**](https://github.com/Zhaozixiang1228/IF-CSCFuse) 
-- Gave three deep convolutional sparse coding networks for interpretable image fusion via unfolding the iterative shrinkage and thresholding algorithm
+- Gave three deep convolutional sparse coding networks for interpretable image fusion via unfolding the iterative shrinkage and thresholding algorithm.
 </div>
 </div>
 
