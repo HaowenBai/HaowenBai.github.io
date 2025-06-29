@@ -42,7 +42,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025. 
 
-<span style="font-weight: 1000;">Haowen Bai</span>, **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
+<span style="font-weight: 1000; color:blue">Haowen Bai</span>, **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
 
 [**Paper**]() \| 
 [**ArXiv**](https://arxiv.org/abs/2503.07235) \| 
