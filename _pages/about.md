@@ -34,6 +34,7 @@ My research interest includes neural machine translation and computer vision. I 
 - *2016.09 - 2020.06*, B.S. in Information and Computing Science, Dalian University of Technology. 
 
 # 📝 Publications 
+## First-Author
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -123,7 +124,7 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 </div>
 
 
-
+## Collaborative Works
 - ``ICML 2024`` **Image fusion via vision-language model**   
 Forty-first International Conference on Machine Learning (**ICML**), 2024.  
 Zixiang Zhao, Lilun Deng, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool  
