@@ -51,7 +51,7 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight</div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight<span style="color:red">(Highlight)</span></div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Task-driven Image Fusion with Learnable Fusion Loss**
