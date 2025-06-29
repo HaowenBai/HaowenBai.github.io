@@ -42,7 +42,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025. 
 
-<span style="font-weight: 1000; color:rgb(34,75,141)">Haowen Bai</span>, **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
+<span style="color:rgb(34,75,141)">**Haowen Bai**</span>, **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
 
 [**Paper**]() \| 
 [**ArXiv**](https://arxiv.org/abs/2503.07235) \| 
@@ -51,14 +51,14 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight<span style="color:red">(Highlight)</span></div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight<img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Task-driven Image Fusion with Learnable Fusion Loss**
 
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025. <span style="color:red">(Highlight)</span>
 
-<span style="font-weight: 1000;">Haowen Bai</span>, **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
+**Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2025/html/Bai_Task-driven_Image_Fusion_with_Learnable_Fusion_Loss_CVPR_2025_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2412.03240) \| 
@@ -76,7 +76,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 
 IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4), pp. 3498-3511, 2025.
 
-[**Haowen Bai**](), Zixiang Zhao, Jiangshe Zhang\*, Baisong Jiang, Lilun Deng, Yukun Cui, Shuang Xu, Chunxia Zhang
+**Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Baisong Jiang, Lilun Deng, Yukun Cui, Shuang Xu, Chunxia Zhang
 
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10769519) \| 
 [**ArXiv**](https://arxiv.org/abs/2502.01467) \| 
