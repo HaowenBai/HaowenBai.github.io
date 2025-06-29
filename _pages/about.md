@@ -35,6 +35,22 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 📝 Publications 
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+**Retinex-MEF: Retinex-based Glare Effects Aware Unsupervised Multi-Exposure Image Fusion**
+
+IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025. 
+
+<span style="font-weight: 1000;">Haowen Bai</span>, **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
+
+[**Paper**]() \| 
+[**ArXiv**](https://arxiv.org/abs/2503.07235) \| 
+[**Code**]() 
+- 
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight</div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
