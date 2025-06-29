@@ -42,7 +42,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025. 
 
-<span style="font-weight: 1000; color:blue">Haowen Bai</span>, **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
+<span style="font-weight: 1000; color:rgb(34,75,141)">Haowen Bai</span>, **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
 
 [**Paper**]() \| 
 [**ArXiv**](https://arxiv.org/abs/2503.07235) \| 
@@ -76,7 +76,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 
 IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4), pp. 3498-3511, 2025.
 
-[**Haowen Bai**], Zixiang Zhao, Jiangshe Zhang\*, Baisong Jiang, Lilun Deng, Yukun Cui, Shuang Xu, Chunxia Zhang
+[**Haowen Bai**](), Zixiang Zhao, Jiangshe Zhang\*, Baisong Jiang, Lilun Deng, Yukun Cui, Shuang Xu, Chunxia Zhang
 
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10769519) \| 
 [**ArXiv**](https://arxiv.org/abs/2502.01467) \| 
