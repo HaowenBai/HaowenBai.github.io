@@ -125,6 +125,13 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 
 ## Collaborative Works
+- ``ICCV 2025`` **Hipandas: Hyperspectral Image Joint Denoising and Super-Resolution by Image Fusion with the Panchromatic Image**   
+IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.  
+Shuang Xu, Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Chang Yu, Jiangjun Peng, Xiangyong Cao, Deyu Meng  
+[**Paper**]() \| 
+[**ArXiv**]() \| 
+[**Code**]() 
+
 - ``ICML 2024`` **Image fusion via vision-language model**   
 Forty-first International Conference on Machine Learning (**ICML**), 2024.  
 Zixiang Zhao, Lilun Deng, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool  
@@ -159,7 +166,7 @@ Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Yuanzhi 
 <!-- - Propose a novel fusion algorithm based on the denoising diffusion sampling model. -->
 
 
-- ``CVPR 2023``</span> **CDDfuse: Correlation-Driven Dual-branch feature decomposition for multi-modality image fusion**  
+- ``CVPR 2023`` **CDDfuse: Correlation-Driven Dual-branch feature decomposition for multi-modality image fusion**  
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023.  
 Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Jiangshe Zhang, Yulun Zhang, Shuang Xu, Zudi Lin, Radu Timofte, Luc Van Gool  
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.html) \| 
@@ -167,7 +174,7 @@ Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Jiangshe
 [**Code**](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) 
 <!-- - Propose a Correlation-Driven feature Decomposition Fusion (CDDFuse) network for multi-modality image fusion. -->
 
-- ``CVPRW 2023``</span> **Deep convolutional sparse coding networks for interpretable image fusion**  
+- ``CVPRW 2023`` **Deep convolutional sparse coding networks for interpretable image fusion**  
 IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (**CVPRW**), 2023.  
 Zixiang Zhao, Jiangshe Zhang, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Yicheng Wang, Yukun Cui, Lilun Deng, Kai Sun, Chunxia Zhang, Junmin Liu, Shuang Xu  
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2023W/AML/html/Zhao_Deep_Convolutional_Sparse_Coding_Networks_for_Interpretable_Image_Fusion_CVPRW_2023_paper.html) \| 
@@ -176,11 +183,6 @@ Zixiang Zhao, Jiangshe Zhang, <span style="color:rgb(34,75,141)">**Haowen Bai**<
 
 
 
-<!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
-
-<!-- # 🎖 Honors and Awards
-- *2021.10* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
-- *2021.09* Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
 
 
