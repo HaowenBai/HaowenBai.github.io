@@ -44,7 +44,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 
 **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
-[**Paper**]() \| 
+[**Paper**](https://openaccess.thecvf.com/content/CVPR2025/html/Bai_Task-driven_Image_Fusion_with_Learnable_Fusion_Loss_CVPR_2025_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2412.03240) \| 
 [**Code**](https://github.com/HaowenBai/TDFusion) 
 - A task-driven image fusion framework that employs a learnable fusion loss guided by downstream task objectives through meta-learning, enabling adaptive fusion optimization for improved performance in downstream tasks.
