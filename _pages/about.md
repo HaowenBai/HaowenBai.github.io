@@ -125,98 +125,54 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 
 - ``ICML 2024`` **Image fusion via vision-language model**   
-Zixiang Zhao, Lilun Deng, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool  
 Forty-first International Conference on Machine Learning (**ICML**), 2024.  
+Zixiang Zhao, Lilun Deng, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool  
 [**Project Page**](https://zhaozixiang1228.github.io/Project/IF-FILM/) \| 
 [**Paper**](https://openreview.net/pdf?id=eqY64Z1rsT) \| 
 [**ArXiv**](https://arxiv.org/abs/2402.02235) \| 
 [**Code**](https://github.com/Zhaozixiang1228/IF-FILM) 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='images_paper\Film.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Image fusion via vision-language model**
-
-Forty-first International Conference on Machine Learning (**ICML**), 2024.
-
-Zixiang Zhao, Lilun Deng, **Haowen Bai**, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool 
-
-[**Project Page**](https://zhaozixiang1228.github.io/Project/IF-FILM/) \| 
-[**Paper**](https://openreview.net/pdf?id=eqY64Z1rsT) \| 
-[**ArXiv**](https://arxiv.org/abs/2402.02235) \| 
-[**Code**](https://github.com/Zhaozixiang1228/IF-FILM) 
-- Introduce a novel fusion paradigm, for the first time, utilizing explicit textual information to guide image fusion.
-</div>
-</div>
+<!-- - Introduce a novel fusion paradigm, for the first time, utilizing explicit textual information to guide image fusion. -->
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2024</div><img src='images_paper\EMMA.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Equivariant multi-modality image fusion**
-
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2024.
-
-Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Kai Zhang, Shuang Xu, Dongdong Chen, Radu Timofte, Luc Van Gool
-
+- ``CVPR 2024`` **Equivariant multi-modality image fusion**  
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2024.  
+Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Jiangshe Zhang, Yulun Zhang, Kai Zhang, Shuang Xu, Dongdong Chen, Radu Timofte, Luc Van Gool  
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Equivariant_Multi-Modality_Image_Fusion_CVPR_2024_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2305.11443) \| 
 [**Code**](https://github.com/Zhaozixiang1228/MMIF-EMMA) 
-- Propose a novel end-to-end self-supervised fusion algorithm based on the equivariant sensing and imaging prior.
-</div>
-</div>
+
+
+<!-- - Propose a novel end-to-end self-supervised fusion algorithm based on the equivariant sensing and imaging prior. -->
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2023 Oral</div><img src='images_paper\DDFM.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**DDFM: denoising diffusion model for multi-modality image fusion**
-
-IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023. <span style="color:red">(Oral)</span>
-
-Zixiang Zhao, **Haowen Bai**, Yuanzhi Zhu, Jiangshe Zhang, Shuang Xu, Yulun Zhang, Kai Zhang, Deyu Meng, Radu Timofte, Luc Van Gool
-
+- ``ICCV 2023``<span style="color:red"> (Oral)</span> **DDFM: denoising diffusion model for multi-modality image fusion**  
+IEEE/CVF International Conference on Computer Vision (**ICCV**), 2023.  
+Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Yuanzhi Zhu, Jiangshe Zhang, Shuang Xu, Yulun Zhang, Kai Zhang, Deyu Meng, Radu Timofte, Luc Van Gool  
 [**Paper**](https://openaccess.thecvf.com/content/ICCV2023/html/Zhao_DDFM_Denoising_Diffusion_Model_for_Multi-Modality_Image_Fusion_ICCV_2023_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2303.06840) \| 
 [**Code**](https://github.com/Zhaozixiang1228/MMIF-DDFM) 
-- Propose a novel fusion algorithm based on the denoising diffusion sampling model.
-</div>
-</div>
+
+<!-- - Propose a novel fusion algorithm based on the denoising diffusion sampling model. -->
 
 
-
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2023</div><img src='images_paper\CDDFuse.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**CDDfuse: Correlation-Driven Dual-branch feature decomposition for multi-modality image fusion**
-
-IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023.
-
-Zixiang Zhao, **Haowen Bai**, Jiangshe Zhang, Yulun Zhang, Shuang Xu, Zudi Lin, Radu Timofte, Luc Van Gool
-
+- ``CVPR 2023``</span> **CDDfuse: Correlation-Driven Dual-branch feature decomposition for multi-modality image fusion**  
+IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2023.  
+Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Jiangshe Zhang, Yulun Zhang, Shuang Xu, Zudi Lin, Radu Timofte, Luc Van Gool  
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2211.14461) \| 
 [**Code**](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) 
-- Propose a Correlation-Driven feature Decomposition Fusion (CDDFuse) network for multi-modality image fusion.
-</div>
-</div>
+<!-- - Propose a Correlation-Driven feature Decomposition Fusion (CDDFuse) network for multi-modality image fusion. -->
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPRW 2023</div><img src='images_paper\CSCFuse.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-**Deep convolutional sparse coding networks for interpretable image fusion**
-
-IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (**CVPRW**), 2023.
-
-Zixiang Zhao, Jiangshe Zhang, **Haowen Bai**, Yicheng Wang, Yukun Cui, Lilun Deng, Kai Sun, Chunxia Zhang, Junmin Liu, Shuang Xu
-
+- ``CVPRW 2023``</span> **Deep convolutional sparse coding networks for interpretable image fusion**  
+IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (**CVPRW**), 2023.  
+Zixiang Zhao, Jiangshe Zhang, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Yicheng Wang, Yukun Cui, Lilun Deng, Kai Sun, Chunxia Zhang, Junmin Liu, Shuang Xu  
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2023W/AML/html/Zhao_Deep_Convolutional_Sparse_Coding_Networks_for_Interpretable_Image_Fusion_CVPRW_2023_paper.html) \| 
 [**Code**](https://github.com/Zhaozixiang1228/IF-CSCFuse) 
-- Gave three deep convolutional sparse coding networks for interpretable image fusion via unfolding the iterative shrinkage and thresholding algorithm.
-</div>
-</div>
+<!-- - Gave three deep convolutional sparse coding networks for interpretable image fusion via unfolding the iterative shrinkage and thresholding algorithm. -->
+
 
 
 <!-- - [Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet](https://github.com), A, B, C, **CVPR 2020** -->
