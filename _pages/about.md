@@ -42,7 +42,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025. 
 
-<span style="color:rgb(34,75,141)">**Haowen Bai**</span>, **Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
+<span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
 
 [**Paper**]() \| 
 [**ArXiv**](https://arxiv.org/abs/2503.07235) \| 
@@ -60,7 +60,7 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.
 
 IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025. <span style="color:red">(Highlight)</span>
 
-**Haowen Bai**, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
+<span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Jiangshe Zhang\*, Zixiang Zhao\*, Yichen Wu, Lilun Deng, Yukun Cui, Tao Feng, Shuang Xu
 
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2025/html/Bai_Task-driven_Image_Fusion_with_Learnable_Fusion_Loss_CVPR_2025_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2412.03240) \| 
@@ -78,7 +78,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 
 IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4), pp. 3498-3511, 2025.
 
-**Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Baisong Jiang, Lilun Deng, Yukun Cui, Shuang Xu, Chunxia Zhang
+<span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Zixiang Zhao, Jiangshe Zhang\*, Baisong Jiang, Lilun Deng, Yukun Cui, Shuang Xu, Chunxia Zhang
 
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10769519) \| 
 [**ArXiv**](https://arxiv.org/abs/2502.01467) \| 
@@ -96,7 +96,7 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4
 
 International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
 
-**Haowen Bai**, Zixiang Zhao\*, Jiangshe Zhang\*, Yichen Wu, Lilun Deng, Yukun Cui, Baisong Jiang, Shuang Xu
+<span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Zixiang Zhao\*, Jiangshe Zhang\*, Yichen Wu, Lilun Deng, Yukun Cui, Baisong Jiang, Shuang Xu
 
 [**Paper**](https://link.springer.com/article/10.1007/s11263-024-02256-8) \| 
 [**ArXiv**](https://arxiv.org/abs/2312.07943) \| 
@@ -114,7 +114,7 @@ International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
 
 IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 2024.
 
-**Haowen Bai**, Zixiang Zhao, Jiangshe Zhang\*, Yukun Cui, Chunxia Zhang\*, Zhenbo Guo, Yongjun Wang
+<span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Zixiang Zhao, Jiangshe Zhang\*, Yukun Cui, Chunxia Zhang\*, Zhenbo Guo, Yongjun Wang
 
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10530364) \| 
 [**ArXiv**](https://arxiv.org/abs/2502.01474)
@@ -124,11 +124,9 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 
 
-- `ICML 2024` **Image fusion via vision-language model** 
-Zixiang Zhao, Lilun Deng, **Haowen Bai**, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool
-
-Forty-first International Conference on Machine Learning (**ICML**), 2024.
-
+- ``ICML 2024`` **Image fusion via vision-language model**   
+Zixiang Zhao, Lilun Deng, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool  
+Forty-first International Conference on Machine Learning (**ICML**), 2024.  
 [**Project Page**](https://zhaozixiang1228.github.io/Project/IF-FILM/) \| 
 [**Paper**](https://openreview.net/pdf?id=eqY64Z1rsT) \| 
 [**ArXiv**](https://arxiv.org/abs/2402.02235) \| 
