@@ -51,7 +51,9 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight<img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
+
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 Highlight</div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Task-driven Image Fusion with Learnable Fusion Loss**
@@ -121,6 +123,16 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 </div>
 
 
+
+- `ICML 2024` **Image fusion via vision-language model** 
+Zixiang Zhao, Lilun Deng, **Haowen Bai**, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool
+
+Forty-first International Conference on Machine Learning (**ICML**), 2024.
+
+[**Project Page**](https://zhaozixiang1228.github.io/Project/IF-FILM/) \| 
+[**Paper**](https://openreview.net/pdf?id=eqY64Z1rsT) \| 
+[**ArXiv**](https://arxiv.org/abs/2402.02235) \| 
+[**Code**](https://github.com/Zhaozixiang1228/IF-FILM) 
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='images_paper\Film.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
