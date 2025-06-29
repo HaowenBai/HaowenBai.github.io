@@ -36,7 +36,7 @@ My research interest includes neural machine translation and computer vision. I 
 # 📝 Publications 
 ## First-Author
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images_paper\TDFusion.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images_paper\Retinex-MEF.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Retinex-MEF: Retinex-based Glare Effects Aware Unsupervised Multi-Exposure Image Fusion**
