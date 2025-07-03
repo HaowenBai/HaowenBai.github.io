@@ -128,7 +128,7 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 ## Collaborative Works
 - ``ICCV 2025`` **Hipandas: Hyperspectral Image Joint Denoising and Super-Resolution by Image Fusion with the Panchromatic Image**   
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.  
-Shuang Xu, Zixiang Zhao, <span style="color:rgb(54,95,161)">**Haowen Bai**</span>, Chang Yu, Jiangjun Peng, Xiangyong Cao, Deyu Meng  
+Shuang Xu, Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Chang Yu, Jiangjun Peng, Xiangyong Cao, Deyu Meng  
 [**Paper**] \| 
 [**ArXiv**] \| 
 [**Code**] 
