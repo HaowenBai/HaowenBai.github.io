@@ -21,7 +21,9 @@ My name is Haowen Bai (白浩闻). I am currently a Ph.D. Candidate at the Schoo
 My research focuses on low-level computer vision and multi-source information fusion, with a particular emphasis on multi-modal image fusion and restoration.
 
 Email:
+
 hwbaii@stu.xjtu.edu.cn
+
 haowen.bai@hotmail.com
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
@@ -187,9 +189,17 @@ Zixiang Zhao, Jiangshe Zhang, <span style="color:rgb(34,75,141)">**Haowen Bai**<
 <!-- - Gave three deep convolutional sparse coding networks for interpretable image fusion via unfolding the iterative shrinkage and thresholding algorithm. -->
 
 
+# Services
+Conference Reviewer:
 
+- CVPR, ICCV, AAAI, NeurIPS, WACV
 
+Journal Reviewer:
 
+- IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)  
+- Knowledge-Based Systems  
+- Neurocomputing  
+- Computer Methods and Programs in Biomedicine
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
