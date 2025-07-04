@@ -20,10 +20,8 @@ My name is Haowen Bai (白浩闻). I am currently a Ph.D. Candidate at the Schoo
 
 My research focuses on low-level computer vision and multi-source information fusion, with a particular emphasis on multi-modal image fusion and restoration.
 
-Email:
-
-hwbaii@stu.xjtu.edu.cn
-
+Email:  
+hwbaii@stu.xjtu.edu.cn  
 haowen.bai@hotmail.com
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
@@ -32,7 +30,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
-- *2025.06*: Two papers are accepted by **ICCV 2025** (One on retinex-based image fusion and the other on hyper-spectral image restoration)
+- *2025.06*: Two papers are accepted by **ICCV 2025** (One on retinex-based image fusion and the other on hyper-spectral image restoration).
 - *2025.02*: One paper on multi-modality image fusion is accepted by **CVPR** <span style="color:red">(Highlight)</span>.
 
 # 📖 Educations
@@ -188,7 +186,7 @@ Zixiang Zhao, Jiangshe Zhang, <span style="color:rgb(34,75,141)">**Haowen Bai**<
 [**Code**](https://github.com/Zhaozixiang1228/IF-CSCFuse) 
 <!-- - Gave three deep convolutional sparse coding networks for interpretable image fusion via unfolding the iterative shrinkage and thresholding algorithm. -->
 
-
+<span class='anchor' id='services'></span>
 # Services
 Conference Reviewer:
 
