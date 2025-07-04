@@ -31,7 +31,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 # 🔥 News
 - *2025.06*: Two papers are accepted by **ICCV 2025** (One on retinex-based image fusion and the other on hyper-spectral image restoration).
-- *2025.02*: One paper on multi-modality image fusion is accepted by **CVPR** <span style="color:red">(Highlight)</span>.
+- *2025.02*: One paper on multi-modality image fusion is accepted by **CVPR 2025** <span style="color:red">(Highlight)</span>.
 
 # 📖 Educations
 - *2020.09 - Present*, Ph.D. in Statistics, Xi'an Jiaotong University.
