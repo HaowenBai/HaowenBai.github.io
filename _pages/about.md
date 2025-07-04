@@ -51,9 +51,9 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.
 
 <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
 
-[**Paper**] \| 
+**Paper** \| 
 [**ArXiv**](https://arxiv.org/abs/2503.07235) \| 
-[**Code**] 
+**Code**
 - ...
 </div>
 </div>
@@ -135,9 +135,9 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 - ``ICCV 2025`` **Hipandas: Hyperspectral Image Joint Denoising and Super-Resolution by Image Fusion with the Panchromatic Image**   
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.  
 Shuang Xu, Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Chang Yu, Jiangjun Peng, Xiangyong Cao, Deyu Meng  
-[**Paper**] \| 
-[**ArXiv**] \| 
-[**Code**] 
+**Paper** \| 
+**ArXiv** \| 
+**Code** 
 
 - ``ICML 2024`` **Image fusion via vision-language model**   
 Forty-first International Conference on Machine Learning (**ICML**), 2024.  
