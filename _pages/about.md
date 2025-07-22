@@ -194,7 +194,7 @@ Conference Reviewer:
 - CVPR, ICCV, AAAI, NeurIPS, WACV
 
 Journal Reviewer:
-
+- Information Fusion
 - IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)  
 - Knowledge-Based Systems  
 - Neurocomputing  
