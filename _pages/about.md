@@ -30,6 +30,7 @@ My research interest includes neural machine translation and computer vision. I 
 
 
 # 🔥 News
+- *2025.09*: One paper on video fusion is accepted by **NeurIPS 2025** <span style="color:red">(Spotlight)</span>.
 - *2025.06*: Two papers are accepted by **ICCV 2025** (One on retinex-based image fusion and the other on hyper-spectral image restoration).
 - *2025.02*: One paper on multi-modality image fusion is accepted by **CVPR 2025** <span style="color:red">(Highlight)</span>.
 
@@ -51,7 +52,7 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.
 
 **Paper** \| 
 [**ArXiv**](https://arxiv.org/abs/2503.07235) \| 
-**Code**
+[**Code**](https://github.com/HaowenBai/Retinex-MEF)
 - ...
 </div>
 </div>
@@ -130,6 +131,16 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 
 ## Collaborative Works
+
+- ``NeurIPS 2025``<span style="color:red"> (Spotlight)</span> **A Unified Solution to Video Fusion: From Multi-Frame Learning to Benchmarking.**   
+Neural Information Processing Systems (**NeurIPS**), 2025.  
+Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Bingxin Ke, Yukun Cui, Lilun Deng, Yulun Zhang, Kai Zhang, Konrad Schindler  
+[**Project Page**](https://vfbench.github.io) \|
+**Paper** \| 
+[**ArXiv**](https://arxiv.org/abs/2505.19858) \| 
+[**Code**](https://github.com/Zhaozixiang1228/VF-Bench) 
+
+
 - ``ICCV 2025`` **Hipandas: Hyperspectral Image Joint Denoising and Super-Resolution by Image Fusion with the Panchromatic Image**   
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.  
 Shuang Xu, Zixiang Zhao, <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Chang Yu, Jiangjun Peng, Xiangyong Cao, Deyu Meng  
