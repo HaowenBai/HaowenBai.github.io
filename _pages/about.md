@@ -202,14 +202,17 @@ Zixiang Zhao, Jiangshe Zhang, <span style="color:rgb(34,75,141)">**Haowen Bai**<
 
 Conference Reviewer:
 
-- CVPR, ICCV, AAAI, NeurIPS, WACV
+- CVPR, ICCV, AAAI, NeurIPS, WACV, ...
 
 Journal Reviewer:
-- Information Fusion
+- IEEE Transactions on Image Processing (TIP)
 - IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)  
+- Information Fusion
+- ISPRS Journal of Photogrammetry and Remote Sensing
 - Knowledge-Based Systems  
 - Neurocomputing  
 - Computer Methods and Programs in Biomedicine
+- ...
 
 <!-- # 💬 Invited Talks
 - *2021.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
