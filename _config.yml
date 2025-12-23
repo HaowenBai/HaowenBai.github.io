@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Haowen Bai"
-description              : "Ph.D. Candidate"
+description              : "Postdoctoral Research Fellow"
 repository               : "HaowenBai/HaowenBai.github.io"
 google_scholar_stats_use_cdn : False
 
@@ -23,12 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Haowen Bai"
   avatar           : "images/PFP.jpg"
-  bio              : "Xi'an Jiaotong University"
-  location         : "Xi'an, China"
+  bio              : "Nanyang Technological University"
+  location         : "Singapore"
   employer         :
   pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=gMSDelwAAAAJ&hl=zh-CN"
-  email            : "hwbaii@stu.xjtu.edu.cn"
+  googlescholar    : "https://scholar.google.com/citations?user=gMSDelwAAAAJ&hl"
+  email            : "haowen.bai (at) ntu.edu.sg"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
