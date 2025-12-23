@@ -16,13 +16,16 @@ redirect_from:
 {% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
 
 <span class='anchor' id='about-me'></span>
-My name is Haowen Bai (白浩闻). I am currently a Ph.D. Candidate at the School of Mathematics and Statistics, Xi’an Jiaotong University, supervised by [Prof. Jiangshe Zhang](https://gr.xjtu.edu.cn/en/web/jszhang) and worked closely with [Dr. Zixiang Zhao](https://zhaozixiang1228.github.io/) and [Prof. Shuang Xu](https://shuangxu96.github.io/).
+My name is Haowen Bai (白浩闻). I am currently a Postdoctoral Research Fellow at Nanyang Technological University, Singapore, supervised by [Prof. Yap Kim Hui](https://dr.ntu.edu.sg/entities/person/Yap-Kim-Hui).
+
+I received my Ph.D. degree in Statistics from School of Mathematics and Statistics, Xi’an Jiaotong University, supervised by [Prof. Jiangshe Zhang](https://gr.xjtu.edu.cn/en/web/jszhang) and worked closely with [Dr. Zixiang Zhao](https://zhaozixiang1228.github.io/) and [Prof. Shuang Xu](https://shuangxu96.github.io/).
 
 My research focuses on low-level computer vision and multi-source information fusion, with a particular emphasis on multi-modal image fusion and restoration.
 
 Email:  
-hwbaii@stu.xjtu.edu.cn  
-haowen.bai@hotmail.com
+haowen.bai (at) ntu.edu.sg   
+haowen.bai (at) hotmail.com  
+hwbaii (at) stu.xjtu.edu.cn (will expire)
 
 <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. Suspendisse condimentum, libero vel tempus mattis, risus risus vulputate libero, elementum fermentum mi neque vel nisl. Maecenas facilisis maximus dignissim. Curabitur mattis vulputate dui, tincidunt varius libero luctus eu. Mauris mauris nulla, scelerisque eget massa id, tincidunt congue felis. Sed convallis tempor ipsum rhoncus viverra. Pellentesque nulla orci, accumsan volutpat fringilla vitae, maximus sit amet tortor. Aliquam ultricies odio ut volutpat scelerisque. Donec nisl nisl, porttitor vitae pharetra quis, fringilla sed mi. Fusce pretium dolor ut aliquam consequat. Cras volutpat, tellus accumsan mattis molestie, nisl lacus tempus massa, nec malesuada tortor leo vel quam. Aliquam vel ex consectetur, vehicula leo nec, efficitur eros. Donec convallis non urna quis feugiat.
 
@@ -34,8 +37,9 @@ My research interest includes neural machine translation and computer vision. I 
 - *2025.06*: Two papers are accepted by **ICCV 2025** (One on retinex-based image fusion and the other on hyper-spectral image restoration).
 - *2025.02*: One paper on multi-modality image fusion is accepted by **CVPR 2025** <span style="color:red">(Highlight)</span>.
 
-# 📖 Educations
-- *2020.09 - Present*, Ph.D. in Statistics, Xi'an Jiaotong University.
+# 📖 Education and Experience
+- *2025.12 - Present*, Research Fellow, School of Electrical Electronic Engineering, Nanyang Technological University.
+- *2020.09 - 2025.09*, Ph.D. in Statistics, Xi'an Jiaotong University.
 - *2016.09 - 2020.06*, B.S. in Information and Computing Science, Dalian University of Technology. 
 
 # 📝 Publications 
@@ -50,10 +54,10 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.
 
 <span style="color:rgb(34,75,141)">**Haowen Bai**</span>, Jiangshe Zhang\*, Zixiang Zhao\*, Lilun Deng, Yukun Cui, Shuang Xu
 
-**Paper** \| 
+[**Paper**](https://openaccess.thecvf.com/content/ICCV2025/html/Bai_Retinex-MEF_Retinex-based_Glare_Effects_Aware_Unsupervised_Multi-Exposure_Image_Fusion_ICCV_2025_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2503.07235) \| 
 [**Code**](https://github.com/HaowenBai/Retinex-MEF)
-- ...
+- Retinex Theory–Based Adaptive Solution for Multi-Exposure Image Fusion, by modeling glare effects to adapt to overexposed conditions.
 </div>
 </div>
 
@@ -205,6 +209,7 @@ Conference Reviewer:
 - CVPR, ICCV, AAAI, NeurIPS, WACV, ...
 
 Journal Reviewer:
+- International Journal of Computer Vision
 - IEEE Transactions on Image Processing (TIP)
 - IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)  
 - Information Fusion
