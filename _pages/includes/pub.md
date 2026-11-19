@@ -1,5 +1,5 @@
-# 📝 Publications 
-## First-Author
+# 📝 <span class="lang-en">Publications</span><span class="lang-zh">论文</span>
+## <span class="lang-en">First-Author</span><span class="lang-zh">第一作者</span>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCV 2025</div><img src='images_paper/Retinex-MEF.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -13,7 +13,7 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.
 [**Paper**](https://openaccess.thecvf.com/content/ICCV2025/html/Bai_Retinex-MEF_Retinex-based_Glare_Effects_Aware_Unsupervised_Multi-Exposure_Image_Fusion_ICCV_2025_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2503.07235) \| 
 [**Code**](https://github.com/HaowenBai/Retinex-MEF)
-- Retinex Theory–Based Adaptive Solution for Multi-Exposure Image Fusion, by modeling glare effects to adapt to overexposed conditions.
+- <span class="lang-en">Retinex Theory–Based Adaptive Solution for Multi-Exposure Image Fusion, by modeling glare effects to adapt to overexposed conditions.</span><span class="lang-zh">基于 Retinex 理论的自适应多曝光图像融合方法：通过建模眩光效应来适应过曝场景。</span>
 </div>
 </div>
 
@@ -32,7 +32,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 [**ArXiv**](https://arxiv.org/abs/2412.03240) \| 
 [**Code**](https://github.com/HaowenBai/TDFusion) \|
 [**中文版**](paper_cn/TDFusion_CN.pdf)
-- A task-driven image fusion framework that employs a learnable fusion loss guided by downstream task objectives through meta-learning, enabling adaptive fusion optimization for improved performance in downstream tasks.
+- <span class="lang-en">A task-driven image fusion framework that employs a learnable fusion loss guided by downstream task objectives through meta-learning, enabling adaptive fusion optimization for improved performance in downstream tasks.</span><span class="lang-zh">任务驱动的图像融合框架：通过元学习，让下游任务的目标来指导一个可学习的融合损失，使融合自适应地优化，从而提升下游任务的表现。</span>
 </div>
 </div>
 
@@ -50,7 +50,7 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10769519) \| 
 [**ArXiv**](https://arxiv.org/abs/2502.01467) \| 
 [**Code**](https://github.com/HaowenBai/UAAFusion) 
-- An attribution-guided fusion framework that optimizes multi-modal image synthesis for semantic segmentation via unfolding networks and adaptive loss design, prioritizing task-critical features through attribution maps.
+- <span class="lang-en">An attribution-guided fusion framework that optimizes multi-modal image synthesis for semantic segmentation via unfolding networks and adaptive loss design, prioritizing task-critical features through attribution maps.</span><span class="lang-zh">归因引导的融合框架：借助展开网络和自适应损失，面向语义分割优化多模态图像融合，并用归因图优先保留对任务关键的特征。</span>
 </div>
 </div>
 
@@ -68,7 +68,7 @@ International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
 [**Paper**](https://link.springer.com/article/10.1007/s11263-024-02256-8) \| 
 [**ArXiv**](https://arxiv.org/abs/2312.07943) \| 
 [**Code**](https://github.com/HaowenBai/ReFusion) 
-- Propose a meta-learning-based image fusion framework that dynamically optimizes task-specific loss functions through source image reconstruction to preserve optimal source information.
+- <span class="lang-en">Propose a meta-learning-based image fusion framework that dynamically optimizes task-specific loss functions through source image reconstruction to preserve optimal source information.</span><span class="lang-zh">提出基于元学习的图像融合框架：通过重建源图像，动态优化与任务相关的损失函数，尽可能保留源图像中的信息。</span>
 </div>
 </div>
 
@@ -85,12 +85,12 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10530364) \| 
 [**ArXiv**](https://arxiv.org/abs/2502.01474)
-- Propose a novel approach that jointly optimizes label refinement and first-break picking performance in microseismic data by integrating a latent variable representation of true first-break times into a probabilistic model.
+- <span class="lang-en">Propose a novel approach that jointly optimizes label refinement and first-break picking performance in microseismic data by integrating a latent variable representation of true first-break times into a probabilistic model.</span><span class="lang-zh">提出一种新方法：把真实初至时间作为隐变量引入概率模型，联合优化微地震数据的标签修正和初至拾取。</span>
 </div>
 </div>
 
 
-## Collaborative Works
+## <span class="lang-en">Collaborative Works</span><span class="lang-zh">合作论文</span>
 
 - ``NeurIPS 2025``<span class="hl"> (Spotlight)</span> **A Unified Solution to Video Fusion: From Multi-Frame Learning to Benchmarking.**   
 Neural Information Processing Systems (**NeurIPS**), 2025.  

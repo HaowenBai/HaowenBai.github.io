@@ -1,28 +1,22 @@
-# main links links
+# Top-bar links. title: English, title_zh: Chinese.
+# url points at the anchors in _pages/about.md (<div class="anchor" id="...">).
 main:
   - title: "About Me"
+    title_zh: "关于我"
     url: "/#about-me"
 
   - title: "News"
-    url: "/#-news"
+    title_zh: "新闻"
+    url: "/#news"
 
-  - title: "Educations"
-    url: "/#-educations"
-    
+  - title: "Education"
+    title_zh: "教育经历"
+    url: "/#education"
+
   - title: "Publications"
-    url: "/#-publications"
+    title_zh: "论文"
+    url: "/#publications"
 
   - title: "Services"
-    url: "/#-services"
-
-
-  # - title: "Honors and Awards"
-  #   url: "/#-honors-and-awards"
-
-
-
-  # - title: "Invited Talks"
-  #   url: "/#-invited-talks"
-
-  # - title: "Internships"
-  #   url: "/#-internships"
+    title_zh: "学术服务"
+    url: "/#services"

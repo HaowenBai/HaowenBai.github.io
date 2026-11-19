@@ -9,18 +9,18 @@
   </div>
 
   <div class="author__content">
-    <h3 class="author__name">{{ author.name }}</h3>
-    {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <h3 class="author__name">{% if author.name_zh %}<span class="lang-en">{{ author.name }}</span><span class="lang-zh">{{ author.name_zh }}</span>{% else %}{{ author.name }}{% endif %}</h3>
+    {% if author.bio %}<p class="author__bio">{% if author.bio_zh %}<span class="lang-en">{{ author.bio }}</span><span class="lang-zh">{{ author.bio_zh }}</span>{% else %}{{ author.bio }}{% endif %}</p>{% endif %}
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
       {% if site.description %}
-        <li><div style="white-space: normal; margin-bottom: 1em;">{{ site.description }}</div></li>
+        <li><div style="white-space: normal; margin-bottom: 1em;">{% if site.description_zh %}<span class="lang-en">{{ site.description }}</span><span class="lang-zh">{{ site.description_zh }}</span>{% else %}{{ site.description }}{% endif %}</div></li>
       {% endif %}
       {% if author.location %}
-        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
+        <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {% if author.location_zh %}<span class="lang-en">{{ author.location }}</span><span class="lang-zh">{{ author.location_zh }}</span>{% else %}{{ author.location }}{% endif %}</li>
       {% endif %}
       {% if author.employer %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
@@ -29,7 +29,7 @@
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>
       {% endif %}
       {% if author.email %}
-        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> Email</a></li>
+        <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope" aria-hidden="true"></i> <span class="lang-en">Email</span><span class="lang-zh">邮箱</span></a></li>
       {% endif %}
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase</a></li>

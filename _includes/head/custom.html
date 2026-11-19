@@ -1,18 +1,25 @@
 <script>
-  /* Apply the saved theme before the page is drawn, so it never flashes white.
-     No saved choice yet: follow the system setting. The button is handled in assets/js/homepage.js. */
+  /* Apply the theme and language before the page is drawn, so nothing flashes.
+     Theme: the saved choice, else the system setting.
+     Language: ?lang=zh or ?lang=en in the URL, else the saved choice, else English.
+     The two buttons are handled in assets/js/homepage.js. */
   (function () {
-    var root = document.documentElement, saved = null;
-    try { saved = localStorage.getItem('theme'); } catch (e) {}
+    var root = document.documentElement, theme = null, lang = null;
+    try { theme = localStorage.getItem('theme'); lang = localStorage.getItem('lang'); } catch (e) {}
     var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
-    root.setAttribute('data-theme', saved === 'dark' || saved === 'light' ? saved : (mq && mq.matches ? 'dark' : 'light'));
+    root.setAttribute('data-theme', theme === 'dark' || theme === 'light' ? theme : (mq && mq.matches ? 'dark' : 'light'));
     if (mq && mq.addEventListener) {
       mq.addEventListener('change', function (e) {
-        var s = null;
-        try { s = localStorage.getItem('theme'); } catch (err) {}
-        if (s !== 'dark' && s !== 'light') root.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+        var t = null;
+        try { t = localStorage.getItem('theme'); } catch (err) {}
+        if (t !== 'dark' && t !== 'light') root.setAttribute('data-theme', e.matches ? 'dark' : 'light');
       });
     }
+    var m = /[?&]lang=(zh|en)(&|$)/.exec(location.search);
+    if (m) lang = m[1];
+    lang = lang === 'zh' ? 'zh' : 'en';
+    root.setAttribute('data-lang', lang);
+    root.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
   })();
 </script>
 

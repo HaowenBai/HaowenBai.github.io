@@ -16,4 +16,16 @@
       save('theme', next);
     });
   }
+
+  /* ---- English / Chinese: CSS shows .lang-en or .lang-zh according to <html data-lang> ---- */
+  var langBtn = document.getElementById('lang-toggle');
+  if (langBtn) {
+    langBtn.addEventListener('click', function () {
+      var next = root.getAttribute('data-lang') === 'zh' ? 'en' : 'zh';
+      root.setAttribute('data-lang', next);
+      root.setAttribute('lang', next === 'zh' ? 'zh-CN' : 'en');
+      save('lang', next);
+      window.dispatchEvent(new Event('resize'));  // the top bar re-fits its links to the new labels
+    });
+  }
 })();

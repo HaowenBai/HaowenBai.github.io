@@ -8,6 +8,7 @@
 # Site Settings
 title                    : "Haowen Bai"
 description              : "Postdoctoral Research Fellow"
+description_zh           : "博士后研究员"   # *_zh fields: what the Chinese version shows
 repository               : "HaowenBai/HaowenBai.github.io"
 google_scholar_stats_use_cdn : False
 
@@ -22,9 +23,12 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 # Site Author
 author:
   name             : "Haowen Bai"
+  name_zh          : "白浩闻"
   avatar           : "images/PFP.jpg"
   bio              : "Nanyang Technological University"
+  bio_zh           : "南洋理工大学"
   location         : "Singapore"
+  location_zh      : "新加坡"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=gMSDelwAAAAJ&hl"

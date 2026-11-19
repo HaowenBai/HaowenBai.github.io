@@ -7,6 +7,10 @@
 .me { color: rgb(34, 75, 141); }    /* my name in author lists */
 .hl { color: red; }                 /* Spotlight / Highlight / Oral */
 
+/* language: <html data-lang="zh"> shows .lang-zh and hides .lang-en; English otherwise */
+html[data-lang="zh"] .lang-en,
+html:not([data-lang="zh"]) .lang-zh { display: none !important; }
+
 
 /* top bar: menu on the left, buttons on the right
    ========================================================================== */
