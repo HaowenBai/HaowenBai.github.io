@@ -55,6 +55,21 @@ html:not([data-lang="zh"]) .lang-zh { display: none !important; }
 .theme-icon--dark { display: none; }
 
 
+/* publications: toolbar under the heading (Google Scholar totals, sort buttons)
+   ========================================================================== */
+
+.pub-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5em 1em;
+  margin: 0.25em 0 0.5em;
+  color: $gray;
+  font-size: 0.9em;
+}
+
+
 /* dark mode: <html data-theme="dark">, set by the top-bar button or the system setting
    ========================================================================== */
 
@@ -125,6 +140,7 @@ html[data-theme="dark"] {
   .social-icons .fa-github { color: $dk-strong; }  /* black by default, invisible on dark */
 
   /* publications */
+  .pub-toolbar { color: $dk-muted; }
   .paper-box { border-bottom-color: $dk-border; }
   .paper-box .paper-box-image img { box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7); }
   p > code,
