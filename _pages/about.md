@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 {% comment %}
-  The home page is put together from the section files in _pages/includes/.
+  The home page is put together from the section files in _pages/_sections/.
   Each section has an English file (news.md) and a Chinese file (news.zh.md);
   the 中文 / EN button in the top bar shows one and hides the other.
   pub.md is shared by both languages: its few Chinese parts sit in <span class="lang-zh">.
@@ -19,35 +19,35 @@ redirect_from:
 
 <div class="anchor" id="about-me"></div>
 <div class="lang-en" markdown="1">
-{% include_relative includes/intro.md %}
+{% include_relative _sections/intro.md %}
 </div>
 <div class="lang-zh" markdown="1">
-{% include_relative includes/intro.zh.md %}
+{% include_relative _sections/intro.zh.md %}
 </div>
 
 <div class="anchor" id="news"></div>
 <div class="lang-en" markdown="1">
-{% include_relative includes/news.md %}
+{% include_relative _sections/news.md %}
 </div>
 <div class="lang-zh" markdown="1">
-{% include_relative includes/news.zh.md %}
+{% include_relative _sections/news.zh.md %}
 </div>
 
 <div class="anchor" id="education"></div>
 <div class="lang-en" markdown="1">
-{% include_relative includes/education.md %}
+{% include_relative _sections/education.md %}
 </div>
 <div class="lang-zh" markdown="1">
-{% include_relative includes/education.zh.md %}
+{% include_relative _sections/education.zh.md %}
 </div>
 
 <div class="anchor" id="publications"></div>
-{% include_relative includes/pub.md %}
+{% include_relative _sections/pub.md %}
 
 <div class="anchor" id="services"></div>
 <div class="lang-en" markdown="1">
-{% include_relative includes/services.md %}
+{% include_relative _sections/services.md %}
 </div>
 <div class="lang-zh" markdown="1">
-{% include_relative includes/services.zh.md %}
+{% include_relative _sections/services.zh.md %}
 </div>
