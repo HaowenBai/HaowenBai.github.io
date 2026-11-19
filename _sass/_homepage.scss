@@ -1,0 +1,134 @@
+/* ==========================================================================
+   Additions for this site (imported last in assets/css/main.scss):
+   highlights, top-bar buttons, dark mode
+   ========================================================================== */
+
+/* highlights used in _pages/includes/*.md */
+.me { color: rgb(34, 75, 141); }    /* my name in author lists */
+.hl { color: red; }                 /* Spotlight / Highlight / Oral */
+
+
+/* top bar: menu on the left, buttons on the right
+   ========================================================================== */
+
+.masthead__inner-wrap {
+  display: flex;
+  align-items: center;
+}
+
+.masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.masthead__controls {
+  flex: none;
+  display: flex;
+  align-items: center;
+  margin-left: 0.5em;
+}
+
+.masthead__btn {
+  margin-left: 0.3em;
+  padding: 0.25em 0.55em;
+  min-width: 2.4em;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: transparent;
+  color: $masthead-link-color;
+  font-family: $sans-serif-narrow;
+  font-size: 0.9em;
+  line-height: 1.4;
+  cursor: pointer;
+
+  &:hover {
+    color: $masthead-link-color-hover;
+    border-color: $light-gray;
+  }
+}
+
+/* the theme button shows a moon in light mode and a sun in dark mode */
+.theme-icon--dark { display: none; }
+
+
+/* dark mode: <html data-theme="dark">, set by the top-bar button or the system setting
+   ========================================================================== */
+
+$dk-bg         : #16181d;
+$dk-bg-raised  : #1f232a;
+$dk-border     : #343a44;
+$dk-text       : #c9d1d9;
+$dk-strong     : #e6edf3;
+$dk-muted      : #9aa4b2;
+$dk-link       : #6cb6ff;
+$dk-link-hover : #9ccbff;
+
+html[data-theme="dark"] {
+  color-scheme: dark;
+  background-color: $dk-bg;
+
+  body {
+    background-color: $dk-bg;
+    color: $dk-text;
+  }
+
+  h1, h2, h3, h4, h5, h6, strong, b { color: $dk-strong; }
+  a { color: $dk-link; }
+  a:hover { color: $dk-link-hover; }
+  hr, .page__content h1 { border-color: $dk-border; }
+  .me, .me strong { color: #79b8ff; }
+  .hl { color: #ff7b72; }
+
+  .theme-icon--light { display: none; }
+  .theme-icon--dark { display: inline; }
+
+  /* top bar */
+  .masthead,
+  .greedy-nav { background-color: $dk-bg; }
+  .masthead { border-bottom-color: $dk-border; }
+  .greedy-nav a { color: $dk-muted; }
+  .greedy-nav a:hover { color: $dk-strong; }
+  .greedy-nav button { background-color: $dk-border; }
+  .greedy-nav .hidden-links {
+    border-color: $dk-border;
+    background: $dk-bg-raised;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+
+    a:hover { color: $dk-strong; background: $dk-border; }
+    li { border-bottom-color: $dk-border; }
+    &:before { border-color: $dk-border transparent; }
+    &:after { border-color: $dk-bg-raised transparent; }
+  }
+  .masthead__btn {
+    color: $dk-muted;
+    border-color: $dk-border;
+
+    &:hover { color: $dk-strong; border-color: $dk-muted; }
+  }
+
+  /* sidebar */
+  .author__avatar img { border-color: $dk-border; }
+  .author__urls {
+    border-color: $dk-border;
+    background: $dk-bg-raised;
+
+    &:before { border-color: $dk-border transparent; }
+    &:after { border-color: $dk-bg-raised transparent; }
+
+    @include breakpoint($large) { background: transparent; }  /* a plain list on wide screens */
+  }
+  .social-icons .fa,
+  .social-icons .fa-github { color: $dk-strong; }  /* black by default, invisible on dark */
+
+  /* publications */
+  .paper-box { border-bottom-color: $dk-border; }
+  .paper-box .paper-box-image img { box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7); }
+  p > code,
+  li > code,
+  a > code {
+    border-color: $dk-border;
+    background: $dk-bg-raised;
+    box-shadow: none;
+    color: $dk-strong;
+  }
+}

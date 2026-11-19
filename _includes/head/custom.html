@@ -1,3 +1,21 @@
+<script>
+  /* Apply the saved theme before the page is drawn, so it never flashes white.
+     No saved choice yet: follow the system setting. The button is handled in assets/js/homepage.js. */
+  (function () {
+    var root = document.documentElement, saved = null;
+    try { saved = localStorage.getItem('theme'); } catch (e) {}
+    var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+    root.setAttribute('data-theme', saved === 'dark' || saved === 'light' ? saved : (mq && mq.matches ? 'dark' : 'light'));
+    if (mq && mq.addEventListener) {
+      mq.addEventListener('change', function (e) {
+        var s = null;
+        try { s = localStorage.getItem('theme'); } catch (err) {}
+        if (s !== 'dark' && s !== 'light') root.setAttribute('data-theme', e.matches ? 'dark' : 'light');
+      });
+    }
+  })();
+</script>
+
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
