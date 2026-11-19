@@ -54,19 +54,29 @@ html:not([data-lang="zh"]) .lang-zh { display: none !important; }
 /* the theme button shows a moon in light mode and a sun in dark mode */
 .theme-icon--dark { display: none; }
 
-
-/* publications: toolbar under the heading (Google Scholar totals, sort buttons)
-   ========================================================================== */
-
-.pub-toolbar {
-  display: flex;
-  flex-wrap: wrap;
+/* 中文 / EN: both shown, the current language highlighted */
+.lang-switch {
+  display: inline-flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 0.5em 1em;
-  margin: 0.25em 0 0.5em;
-  color: $gray;
-  font-size: 0.9em;
+  gap: 0.3em;
+
+  button {
+    padding: 0;
+    border: 0;
+    background: none;
+    color: inherit;
+    font: inherit;
+    cursor: pointer;
+  }
+}
+
+.lang-switch__sep { opacity: 0.5; }
+
+html[data-lang="zh"] .lang-switch [data-set-lang="zh"],
+html:not([data-lang="zh"]) .lang-switch [data-set-lang="en"] {
+  color: $info-color;
+  font-weight: 700;
+  cursor: default;
 }
 
 
@@ -124,6 +134,8 @@ html[data-theme="dark"] {
 
     &:hover { color: $dk-strong; border-color: $dk-muted; }
   }
+  &[data-lang="zh"] .lang-switch [data-set-lang="zh"],
+  &:not([data-lang="zh"]) .lang-switch [data-set-lang="en"] { color: $dk-link; }
 
   /* sidebar */
   .author__avatar img { border-color: $dk-border; }
@@ -140,7 +152,6 @@ html[data-theme="dark"] {
   .social-icons .fa-github { color: $dk-strong; }  /* black by default, invisible on dark */
 
   /* publications */
-  .pub-toolbar { color: $dk-muted; }
   .paper-box { border-bottom-color: $dk-border; }
   .paper-box .paper-box-image img { box-shadow: 0 2px 10px rgba(0, 0, 0, 0.7); }
   p > code,

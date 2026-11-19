@@ -10,7 +10,7 @@ title                    : "Haowen Bai"
 description              : "Postdoctoral Research Fellow"
 description_zh           : "博士后研究员"   # *_zh fields: what the Chinese version shows
 repository               : "HaowenBai/HaowenBai.github.io"
-google_scholar_stats_use_cdn : False
+google_scholar_citations : 3396   # Google Scholar total citations, shown under Publications. Updated by hand (2026-11-20).
 
 # google analytics
 google_analytics_id      :  # get google_analytics_id from https://analytics.google.com/analytics/

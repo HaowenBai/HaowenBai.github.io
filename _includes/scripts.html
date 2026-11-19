@@ -1,9 +1,4 @@
 <script src="assets/js/main.min.js"></script>
-<script>
-  /* Google Scholar data behind the citation counts: gs_data.json on the google-scholar-stats branch,
-     written every day by .github/workflows/google_scholar_crawler.yaml */
-  var GS_DATA_URL = '{% if site.google_scholar_stats_use_cdn %}https://cdn.jsdelivr.net/gh/{{ site.repository }}@{% else %}https://raw.githubusercontent.com/{{ site.repository }}/{% endif %}google-scholar-stats/gs_data.json';
-</script>
 <script src="assets/js/homepage.js?v={{ site.time | date: '%s' }}"></script>
 
 {% include analytics.html %}
