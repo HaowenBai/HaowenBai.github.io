@@ -65,6 +65,7 @@ include:
   - _pages
   - files
 exclude:
+  - _pages/includes   # section files; about.md pulls them in with include_relative
   - google_scholar_crawler
   - run_server.sh
   - images/generate_icons.py
