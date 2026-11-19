@@ -7,18 +7,19 @@
     try { localStorage.setItem(key, value); } catch (e) {}
   }
 
-  /* ---- dark / light ---- */
-  var themeBtn = document.getElementById('theme-toggle');
-  if (themeBtn) {
-    themeBtn.addEventListener('click', function () {
-      var next = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      root.setAttribute('data-theme', next);
-      save('theme', next);
-    });
-  }
+  /* The two top-bar switches (_includes/masthead.html) each show both options;
+     CSS highlights the current one from <html data-theme> / <html data-lang>. */
 
-  /* ---- 中文 / EN: CSS shows .lang-en or .lang-zh according to <html data-lang>,
-     and highlights the current one of the two buttons ---- */
+  /* ---- light / dark ---- */
+  document.querySelectorAll('[data-set-theme]').forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var theme = btn.getAttribute('data-set-theme');
+      root.setAttribute('data-theme', theme);
+      save('theme', theme);
+    });
+  });
+
+  /* ---- 中文 / EN: CSS also shows .lang-en or .lang-zh accordingly ---- */
   document.querySelectorAll('[data-set-lang]').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var lang = btn.getAttribute('data-set-lang');

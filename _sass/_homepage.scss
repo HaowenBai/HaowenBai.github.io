@@ -23,6 +23,8 @@ html:not([data-lang="zh"]) .lang-zh { display: none !important; }
 .masthead__menu {
   flex: 1 1 auto;
   min-width: 0;
+
+  .greedy-nav { min-width: 0; }  /* the template's 250px pushed the menu over the switches on phones */
 }
 
 .masthead__controls {
@@ -51,14 +53,11 @@ html:not([data-lang="zh"]) .lang-zh { display: none !important; }
   }
 }
 
-/* the theme button shows a moon in light mode and a sun in dark mode */
-.theme-icon--dark { display: none; }
-
-/* 中文 / EN: both shown, the current language highlighted */
-.lang-switch {
+/* top-bar switches (中文 / EN, light / dark): both options shown, the current one highlighted */
+.switch {
   display: inline-flex;
   align-items: center;
-  gap: 0.3em;
+  gap: 0.35em;
 
   button {
     padding: 0;
@@ -70,10 +69,11 @@ html:not([data-lang="zh"]) .lang-zh { display: none !important; }
   }
 }
 
-.lang-switch__sep { opacity: 0.5; }
+.switch__sep { opacity: 0.5; }
 
-html[data-lang="zh"] .lang-switch [data-set-lang="zh"],
-html:not([data-lang="zh"]) .lang-switch [data-set-lang="en"] {
+html[data-lang="zh"] [data-set-lang="zh"],
+html:not([data-lang="zh"]) [data-set-lang="en"],
+html:not([data-theme="dark"]) [data-set-theme="light"] {
   color: $info-color;
   font-weight: 700;
   cursor: default;
@@ -108,8 +108,6 @@ html[data-theme="dark"] {
   .me, .me strong { color: #79b8ff; }
   .hl { color: #ff7b72; }
 
-  .theme-icon--light { display: none; }
-  .theme-icon--dark { display: inline; }
 
   /* top bar */
   .masthead,
@@ -134,8 +132,13 @@ html[data-theme="dark"] {
 
     &:hover { color: $dk-strong; border-color: $dk-muted; }
   }
-  &[data-lang="zh"] .lang-switch [data-set-lang="zh"],
-  &:not([data-lang="zh"]) .lang-switch [data-set-lang="en"] { color: $dk-link; }
+  &[data-lang="zh"] [data-set-lang="zh"],
+  &:not([data-lang="zh"]) [data-set-lang="en"],
+  [data-set-theme="dark"] {   /* current option, as in light mode */
+    color: $dk-link;
+    font-weight: 700;
+    cursor: default;
+  }
 
   /* sidebar */
   .author__avatar img { border-color: $dk-border; }
