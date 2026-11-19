@@ -65,8 +65,10 @@ include:
   - _pages
   - files
 exclude:
-  - docs
   - google_scholar_crawler
+  - run_server.sh
+  - images/generate_icons.py
+  - images/111.jpg
   - "*.sublime-project"
   - "*.sublime-workspace"
   - .asset-cache
@@ -81,9 +83,6 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
   - config
   - gulpfile.js
   - log
