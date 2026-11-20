@@ -2,19 +2,12 @@
   /* Apply the theme and language before the page is drawn, so nothing flashes.
      Theme: the saved choice, else the system setting.
      Language: ?lang=zh or ?lang=en in the URL, else the saved choice, else English.
-     The two buttons are handled in assets/js/homepage.js. */
+     Later changes (the two buttons, the system setting) are handled in assets/js/homepage.js. */
   (function () {
     var root = document.documentElement, theme = null, lang = null;
     try { theme = localStorage.getItem('theme'); lang = localStorage.getItem('lang'); } catch (e) {}
-    var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
-    root.setAttribute('data-theme', theme === 'dark' || theme === 'light' ? theme : (mq && mq.matches ? 'dark' : 'light'));
-    if (mq && mq.addEventListener) {
-      mq.addEventListener('change', function (e) {
-        var t = null;
-        try { t = localStorage.getItem('theme'); } catch (err) {}
-        if (t !== 'dark' && t !== 'light') root.setAttribute('data-theme', e.matches ? 'dark' : 'light');
-      });
-    }
+    var dark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
+    root.setAttribute('data-theme', theme === 'dark' || theme === 'light' ? theme : (dark ? 'dark' : 'light'));
     var m = /[?&]lang=(zh|en)(&|$)/.exec(location.search);
     if (m) lang = m[1];
     lang = lang === 'zh' ? 'zh' : 'en';

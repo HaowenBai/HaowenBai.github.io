@@ -11,14 +11,34 @@
      a click anywhere on it switches to the other option. CSS highlights the current one
      from <html data-theme> / <html data-lang>. */
 
-  /* ---- light / dark ---- */
+  /* ---- light / dark ----
+     The template fades text colours over 0.2 s (meant for hover), and nested text such as my name
+     (<span class="me"><strong>) waited for each enclosing fade, lagging up to 0.6 s behind the background.
+     So the colour fades are switched off for the moment the theme changes: everything changes at once. */
+  function applyTheme(theme) {
+    root.classList.add('theme-switching');
+    root.setAttribute('data-theme', theme);
+    void document.body.offsetWidth;  // apply the new colours now, while the fades are off
+    root.classList.remove('theme-switching');
+  }
+
   document.querySelectorAll('[data-toggle="theme"]').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var theme = root.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-      root.setAttribute('data-theme', theme);
+      applyTheme(theme);
       save('theme', theme);
     });
   });
+
+  /* follow the system setting while the visitor has not picked a theme */
+  var mq = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
+  if (mq && mq.addEventListener) {
+    mq.addEventListener('change', function (e) {
+      var saved = null;
+      try { saved = localStorage.getItem('theme'); } catch (err) {}
+      if (saved !== 'dark' && saved !== 'light') applyTheme(e.matches ? 'dark' : 'light');
+    });
+  }
 
   /* ---- EN / 中文: CSS also shows .lang-en or .lang-zh accordingly ---- */
   document.querySelectorAll('[data-toggle="lang"]').forEach(function (btn) {

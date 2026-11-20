@@ -15,6 +15,11 @@
   box-shadow: none;
 }
 
+/* while the theme changes, no colour fades (homepage.js adds this class for a moment) */
+html.theme-switching *,
+html.theme-switching *::before,
+html.theme-switching *::after { transition: none !important; }
+
 /* language: <html data-lang="zh"> shows .lang-zh and hides .lang-en; English otherwise */
 html[data-lang="zh"] .lang-en,
 html:not([data-lang="zh"]) .lang-zh { display: none !important; }
