@@ -1,6 +1,8 @@
 # 📝 <span class="lang-en">Publications</span><span class="lang-zh">论文</span>
 
-{% comment %} The citation count is google_scholar_citations in _config.yml, updated by hand. {% endcomment %}
+{% comment %} The citation count is google_scholar_citations in _config.yml, updated by hand.
+  Each paper's BibTeX is in _data/bibtex.yml; the line "include bibtex.html key=..." under a paper shows it folded
+  (inside a list item, indent that line by two spaces and leave a blank line before it). {% endcomment %}
 <span class="lang-en">For the full list of papers, see [Google Scholar]({{ site.author.googlescholar }}) (citations: {{ site.google_scholar_citations }}).</span><span class="lang-zh">完整的文章列表见[谷歌学术]({{ site.author.googlescholar }})（总引用：{{ site.google_scholar_citations }}）。</span>
 
 ## <span class="lang-en">First-Author</span><span class="lang-zh">第一作者</span>
@@ -18,6 +20,8 @@ IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.
 [**ArXiv**](https://arxiv.org/abs/2503.07235) \| 
 [**Code**](https://github.com/HaowenBai/Retinex-MEF)
 - <span class="lang-en">Retinex Theory–Based Adaptive Solution for Multi-Exposure Image Fusion, by modeling glare effects to adapt to overexposed conditions.</span><span class="lang-zh">基于 Retinex 理论的自适应多曝光图像融合方法：通过建模眩光效应来适应过曝场景。</span>
+
+{% include bibtex.html key="bai2025retinex" %}
 </div>
 </div>
 
@@ -37,6 +41,8 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition (**CVPR**), 2025.
 [**Code**](https://github.com/HaowenBai/TDFusion) \|
 [**中文版**](paper_cn/TDFusion_CN.pdf)
 - <span class="lang-en">A task-driven image fusion framework that employs a learnable fusion loss guided by downstream task objectives through meta-learning, enabling adaptive fusion optimization for improved performance in downstream tasks.</span><span class="lang-zh">任务驱动的图像融合框架：通过元学习，让下游任务的目标来指导一个可学习的融合损失，使融合自适应地优化，从而提升下游任务的表现。</span>
+
+{% include bibtex.html key="bai2025task" %}
 </div>
 </div>
 
@@ -55,6 +61,8 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4
 [**ArXiv**](https://arxiv.org/abs/2502.01467) \| 
 [**Code**](https://github.com/HaowenBai/UAAFusion) 
 - <span class="lang-en">An attribution-guided fusion framework that optimizes multi-modal image synthesis for semantic segmentation via unfolding networks and adaptive loss design, prioritizing task-critical features through attribution maps.</span><span class="lang-zh">归因引导的融合框架：借助展开网络和自适应损失，面向语义分割优化多模态图像融合，并用归因图优先保留对任务关键的特征。</span>
+
+{% include bibtex.html key="bai2025deep" %}
 </div>
 </div>
 
@@ -73,6 +81,8 @@ International Journal of Computer Vision (**IJCV**), 133(5), pp. 2547-2567, 2024
 [**ArXiv**](https://arxiv.org/abs/2312.07943) \| 
 [**Code**](https://github.com/HaowenBai/ReFusion) 
 - <span class="lang-en">Propose a meta-learning-based image fusion framework that dynamically optimizes task-specific loss functions through source image reconstruction to preserve optimal source information.</span><span class="lang-zh">提出基于元学习的图像融合框架：通过重建源图像，动态优化与任务相关的损失函数，尽可能保留源图像中的信息。</span>
+
+{% include bibtex.html key="bai2024refusion" %}
 </div>
 </div>
 
@@ -90,6 +100,8 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 [**Paper**](https://ieeexplore.ieee.org/abstract/document/10530364) \| 
 [**ArXiv**](https://arxiv.org/abs/2502.01474)
 - <span class="lang-en">Propose a novel approach that jointly optimizes label refinement and first-break picking performance in microseismic data by integrating a latent variable representation of true first-break times into a probabilistic model.</span><span class="lang-zh">提出一种新方法：把真实初至时间作为隐变量引入概率模型，联合优化微地震数据的标签修正和初至拾取。</span>
+
+{% include bibtex.html key="bai2024simultaneous" %}
 </div>
 </div>
 
@@ -104,6 +116,7 @@ Zixiang Zhao, <span class="me">**Haowen Bai**</span>, Bingxin Ke, Yukun Cui, Lil
 [**ArXiv**](https://arxiv.org/abs/2505.19858) \| 
 [**Code**](https://github.com/Zhaozixiang1228/VF-Bench) 
 
+  {% include bibtex.html key="zhao2025unified" %}
 
 - ``ICCV 2025`` **Hipandas: Hyperspectral Image Joint Denoising and Super-Resolution by Image Fusion with the Panchromatic Image**   
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.  
@@ -112,6 +125,8 @@ Shuang Xu, Zixiang Zhao, <span class="me">**Haowen Bai**</span>, Chang Yu, Jiang
 [**ArXiv**](https://arxiv.org/abs/2412.04201) \| 
 [**Code**](https://github.com/shuangxu96/Hipandas)
 
+  {% include bibtex.html key="xu2025hipandas" %}
+
 - ``ICML 2024`` **Image fusion via vision-language model**   
 Forty-first International Conference on Machine Learning (**ICML**), 2024.  
 Zixiang Zhao, Lilun Deng, <span class="me">**Haowen Bai**</span>, Yukun Cui, Zhipeng Zhang, Yulun Zhang, Haotong Qin, Dongdong Chen, Jiangshe Zhang, Peng Wang, Luc Van Gool  
@@ -119,6 +134,8 @@ Zixiang Zhao, Lilun Deng, <span class="me">**Haowen Bai**</span>, Yukun Cui, Zhi
 [**Paper**](https://openreview.net/pdf?id=eqY64Z1rsT) \| 
 [**ArXiv**](https://arxiv.org/abs/2402.02235) \| 
 [**Code**](https://github.com/Zhaozixiang1228/IF-FILM) 
+
+  {% include bibtex.html key="zhao2024image" %}
 
 <!-- - Introduce a novel fusion paradigm, for the first time, utilizing explicit textual information to guide image fusion. -->
 
@@ -130,6 +147,8 @@ Zixiang Zhao, <span class="me">**Haowen Bai**</span>, Jiangshe Zhang, Yulun Zhan
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2024/html/Zhao_Equivariant_Multi-Modality_Image_Fusion_CVPR_2024_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2305.11443) \| 
 [**Code**](https://github.com/Zhaozixiang1228/MMIF-EMMA) 
+
+  {% include bibtex.html key="zhao2024equivariant" %}
 
 
 <!-- - Propose a novel end-to-end self-supervised fusion algorithm based on the equivariant sensing and imaging prior. -->
@@ -143,6 +162,8 @@ Zixiang Zhao, <span class="me">**Haowen Bai**</span>, Yuanzhi Zhu, Jiangshe Zhan
 [**ArXiv**](https://arxiv.org/abs/2303.06840) \| 
 [**Code**](https://github.com/Zhaozixiang1228/MMIF-DDFM) 
 
+  {% include bibtex.html key="zhao2023ddfm" %}
+
 <!-- - Propose a novel fusion algorithm based on the denoising diffusion sampling model. -->
 
 
@@ -152,6 +173,9 @@ Zixiang Zhao, <span class="me">**Haowen Bai**</span>, Jiangshe Zhang, Yulun Zhan
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2023/html/Zhao_CDDFuse_Correlation-Driven_Dual-Branch_Feature_Decomposition_for_Multi-Modality_Image_Fusion_CVPR_2023_paper.html) \| 
 [**ArXiv**](https://arxiv.org/abs/2211.14461) \| 
 [**Code**](https://github.com/Zhaozixiang1228/MMIF-CDDFuse) 
+
+  {% include bibtex.html key="zhao2023cddfuse" %}
+
 <!-- - Propose a Correlation-Driven feature Decomposition Fusion (CDDFuse) network for multi-modality image fusion. -->
 
 - ``CVPRW 2023`` **Deep convolutional sparse coding networks for interpretable image fusion**  
@@ -159,4 +183,7 @@ IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops (**CVPR
 Zixiang Zhao, Jiangshe Zhang, <span class="me">**Haowen Bai**</span>, Yicheng Wang, Yukun Cui, Lilun Deng, Kai Sun, Chunxia Zhang, Junmin Liu, Shuang Xu  
 [**Paper**](https://openaccess.thecvf.com/content/CVPR2023W/AML/html/Zhao_Deep_Convolutional_Sparse_Coding_Networks_for_Interpretable_Image_Fusion_CVPRW_2023_paper.html) \| 
 [**Code**](https://github.com/Zhaozixiang1228/IF-CSCFuse) 
+
+  {% include bibtex.html key="zhao2023deep" %}
+
 <!-- - Gave three deep convolutional sparse coding networks for interpretable image fusion via unfolding the iterative shrinkage and thresholding algorithm. -->

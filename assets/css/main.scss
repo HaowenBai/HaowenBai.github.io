@@ -108,4 +108,5 @@ h1:before, .anchor:before {
     font-size: .8em;
 }
 
+$news-shown: {{ site.news_shown | default: 5 }};  // news items shown before "More news" (news_shown in _config.yml)
 @import "homepage"; // this site's additions (dark mode, top-bar buttons, ...)

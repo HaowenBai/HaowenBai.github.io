@@ -1,0 +1,8 @@
+{%- comment -%}
+  A folded BibTeX block for one paper: {% include bibtex.html key="zhao2023cddfuse" %}
+  The entries are in _data/bibtex.yml. Everything is printed on one line (newlines as &#10;),
+  so the block can sit inside a Markdown list item without breaking it.
+{%- endcomment -%}
+{%- capture nl %}
+{% endcapture -%}
+<details class="bibtex"><summary>BibTeX</summary><pre>{{ site.data.bibtex[include.key] | strip | escape | replace: nl, "&#10;" }}</pre></details>

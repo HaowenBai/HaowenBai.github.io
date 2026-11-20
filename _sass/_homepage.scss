@@ -1,15 +1,31 @@
 /* ==========================================================================
    Additions for this site (imported last in assets/css/main.scss):
-   highlights, top-bar buttons, dark mode
+   highlights, top-bar buttons, news folding, BibTeX blocks, dark mode
    ========================================================================== */
 
 /* highlights used in _pages/_sections/*.md */
-.me { color: rgb(34, 75, 141); }    /* my name in author lists */
+.me { color: #4371b1; }             /* my name in author lists: a lighter blue than the links, so it stands apart from the black text */
 .hl { color: red; }                 /* Spotlight / Highlight / Oral */
+
+/* venue tags in Collaborative Works (`CVPR 2023` in pub.md): a soft version of the blue badges on the paper images */
+.page__content li code {
+  color: #234a84;
+  background: #e3ebf6;
+  border-color: #bfcfe6;
+  box-shadow: none;
+}
 
 /* language: <html data-lang="zh"> shows .lang-zh and hides .lang-en; English otherwise */
 html[data-lang="zh"] .lang-en,
 html:not([data-lang="zh"]) .lang-zh { display: none !important; }
+
+/* "Last updated" line between the intro and News (_pages/about.md) */
+.last-updated {
+  margin: 1.2em 0 0;
+  font-size: 0.9em;
+
+  i { margin-right: 0.25em; color: $info-color; }
+}
 
 
 /* top bar: menu on the left, buttons on the right
@@ -53,30 +69,85 @@ html:not([data-lang="zh"]) .lang-zh { display: none !important; }
   }
 }
 
-/* top-bar switches (中文 / EN, light / dark): both options shown, the current one highlighted */
+/* top-bar switches (中文 / EN, light / dark): one button each, both options shown,
+   the current one highlighted; a click anywhere on the button switches */
 .switch {
   display: inline-flex;
   align-items: center;
   gap: 0.35em;
 
-  button {
-    padding: 0;
-    border: 0;
-    background: none;
-    color: inherit;
-    font: inherit;
-    cursor: pointer;
-  }
+  .fa-moon { font-size: 0.8em; }  /* the moon glyph looks bigger than the sun at the same size */
 }
 
 .switch__sep { opacity: 0.5; }
 
-html[data-lang="zh"] [data-set-lang="zh"],
-html:not([data-lang="zh"]) [data-set-lang="en"],
-html:not([data-theme="dark"]) [data-set-theme="light"] {
+html[data-lang="zh"] [data-toggle="lang"] [data-opt="zh"],
+html:not([data-lang="zh"]) [data-toggle="lang"] [data-opt="en"],
+html:not([data-theme="dark"]) [data-toggle="theme"] [data-opt="light"] {
   color: $info-color;
   font-weight: 700;
-  cursor: default;
+}
+
+
+/* News: only the newest $news-shown items until "More news" is clicked
+   (the button is added by homepage.js; with scripts off everything shows)
+   ========================================================================== */
+
+html.js .news:not(.news--open) > ul > li:nth-child(n + #{$news-shown + 1}) { display: none; }
+
+.news__toggle {
+  margin: -0.4em 0 0.6em 1.6em;  /* just under the list, in line with the item text */
+  padding: 0;
+  border: 0;
+  background: none;
+  color: $link-color;
+  font: inherit;
+  font-size: 0.9em;
+  font-weight: 700;
+  cursor: pointer;
+
+  &:hover { color: $link-color-hover; }
+}
+
+
+/* BibTeX folded under each paper (_includes/bibtex.html, entries in _data/bibtex.yml)
+   ========================================================================== */
+
+details.bibtex {
+  margin: 0.3em 0 0.2em;
+
+  summary {
+    display: inline-block;  /* only the label is clickable, not the whole line */
+    color: $link-color;
+    font-size: 0.9em;
+    font-weight: 700;
+    cursor: pointer;
+
+    &::-webkit-details-marker { display: none; }
+    &::before {             /* angle-right; angle-down when open */
+      content: "\f105";
+      display: inline-block;
+      width: 0.75em;
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+    }
+    &:hover { color: $link-color-hover; }
+  }
+
+  &[open] > summary::before { content: "\f107"; }
+
+  pre {
+    margin: 0.4em 0 0.6em;
+    padding: 0.7em 0.9em;
+    border: 1px solid #dde3ea;
+    border-radius: $border-radius;
+    background: #f6f8fa;
+    color: $text-color;
+    font-size: 0.75em;
+    line-height: 1.5;
+    white-space: pre-wrap;    /* wrap long author lists instead of scrolling; copying still gives the original lines */
+    overflow-wrap: anywhere;
+  }
 }
 
 
@@ -107,6 +178,7 @@ html[data-theme="dark"] {
   hr, .page__content h1 { border-color: $dk-border; }
   .me, .me strong { color: #79b8ff; }
   .hl { color: #ff7b72; }
+  .last-updated i { color: $dk-link; }
 
 
   /* top bar */
@@ -132,12 +204,11 @@ html[data-theme="dark"] {
 
     &:hover { color: $dk-strong; border-color: $dk-muted; }
   }
-  &[data-lang="zh"] [data-set-lang="zh"],
-  &:not([data-lang="zh"]) [data-set-lang="en"],
-  [data-set-theme="dark"] {   /* current option, as in light mode */
+  &[data-lang="zh"] [data-toggle="lang"] [data-opt="zh"],
+  &:not([data-lang="zh"]) [data-toggle="lang"] [data-opt="en"],
+  [data-toggle="theme"] [data-opt="dark"] {   /* current option, as in light mode */
     color: $dk-link;
     font-weight: 700;
-    cursor: default;
   }
 
   /* sidebar */
@@ -164,5 +235,21 @@ html[data-theme="dark"] {
     background: $dk-bg-raised;
     box-shadow: none;
     color: $dk-strong;
+  }
+  .page__content li code {   /* venue tags, the same soft blue as in light mode */
+    border-color: rgba(108, 182, 255, 0.3);
+    background: rgba(108, 182, 255, 0.12);
+    color: #a9cdf5;
+  }
+
+  /* news button, BibTeX */
+  .news__toggle,
+  details.bibtex summary { color: $dk-link; }
+  .news__toggle:hover,
+  details.bibtex summary:hover { color: $dk-link-hover; }
+  details.bibtex pre {
+    border-color: $dk-border;
+    background: $dk-bg-raised;
+    color: $dk-text;
   }
 }

@@ -1,0 +1,139 @@
+# BibTeX of each paper, shown folded under the paper in _pages/_sections/pub.md
+# through {% include bibtex.html key="<key>" %} (the key is the name before the colon).
+#
+# Taken from the publishers' records and checked against OpenAlex on 2026-11-20:
+# CVF and IEEE (Crossref) for CVPR / ICCV, Crossref for the journals, PMLR for ICML,
+# NeurIPS Foundation (Crossref) for NeurIPS. Pages follow the DOI version.
+# Keys are in the Google Scholar style: first author + year + first word of the title.
+
+# ---- first-author papers ----
+
+bai2025retinex: |
+  @inproceedings{bai2025retinex,
+    title     = {Retinex-MEF: Retinex-based Glare Effects Aware Unsupervised Multi-Exposure Image Fusion},
+    author    = {Bai, Haowen and Zhang, Jiangshe and Zhao, Zixiang and Deng, Lilun and Cui, Yukun and Xu, Shuang},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    pages     = {7251--7261},
+    year      = {2025},
+    doi       = {10.1109/iccv51701.2025.00681}
+  }
+
+bai2025task: |
+  @inproceedings{bai2025task,
+    title     = {Task-driven Image Fusion with Learnable Fusion Loss},
+    author    = {Bai, Haowen and Zhang, Jiangshe and Zhao, Zixiang and Wu, Yichen and Deng, Lilun and Cui, Yukun and Feng, Tao and Xu, Shuang},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    pages     = {7457--7468},
+    year      = {2025},
+    doi       = {10.1109/cvpr52734.2025.00699}
+  }
+
+bai2025deep: |
+  @article{bai2025deep,
+    title   = {Deep Unfolding Multi-Modal Image Fusion Network via Attribution Analysis},
+    author  = {Bai, Haowen and Zhao, Zixiang and Zhang, Jiangshe and Jiang, Baisong and Deng, Lilun and Cui, Yukun and Xu, Shuang and Zhang, Chunxia},
+    journal = {IEEE Transactions on Circuits and Systems for Video Technology},
+    volume  = {35},
+    number  = {4},
+    pages   = {3498--3511},
+    year    = {2025},
+    doi     = {10.1109/tcsvt.2024.3507540}
+  }
+
+bai2024refusion: |
+  @article{bai2024refusion,
+    title   = {ReFusion: Learning Image Fusion from Reconstruction with Learnable Loss Via Meta-Learning},
+    author  = {Bai, Haowen and Zhao, Zixiang and Zhang, Jiangshe and Wu, Yichen and Deng, Lilun and Cui, Yukun and Jiang, Baisong and Xu, Shuang},
+    journal = {International Journal of Computer Vision},
+    volume  = {133},
+    number  = {5},
+    pages   = {2547--2567},
+    year    = {2024},
+    doi     = {10.1007/s11263-024-02256-8}
+  }
+
+bai2024simultaneous: |
+  @article{bai2024simultaneous,
+    title   = {Simultaneous Automatic Picking and Manual Picking Refinement for First-Break},
+    author  = {Bai, Haowen and Zhao, Zixiang and Zhang, Jiangshe and Cui, Yukun and Zhang, Chunxia and Guo, Zhenbo and Wang, Yongjun},
+    journal = {IEEE Transactions on Geoscience and Remote Sensing},
+    volume  = {62},
+    pages   = {1--12},
+    year    = {2024},
+    doi     = {10.1109/tgrs.2024.3400977}
+  }
+
+# ---- collaborative works ----
+
+zhao2025unified: |
+  @inproceedings{zhao2025unified,
+    title     = {A Unified Solution to Video Fusion: From Multi-Frame Learning to Benchmarking},
+    author    = {Zhao, Zixiang and Bai, Haowen and Ke, Bingxin and Cui, Yukun and Deng, Lilun and Zhang, Yulun and Zhang, Kai and Schindler, Konrad},
+    booktitle = {Advances in Neural Information Processing Systems},
+    volume    = {38},
+    pages     = {142598--142629},
+    year      = {2025},
+    doi       = {10.52202/085713-4281}
+  }
+
+xu2025hipandas: |
+  @inproceedings{xu2025hipandas,
+    title     = {Hipandas: Hyperspectral Image Joint Denoising and Super-Resolution by Image Fusion with the Panchromatic Image},
+    author    = {Xu, Shuang and Zhao, Zixiang and Bai, Haowen and Yu, Chang and Peng, Jiangjun and Cao, Xiangyong and Meng, Deyu},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    pages     = {12002--12011},
+    year      = {2025},
+    doi       = {10.1109/iccv51701.2025.01116}
+  }
+
+zhao2024image: |
+  @inproceedings{zhao2024image,
+    title     = {Image Fusion via Vision-Language Model},
+    author    = {Zhao, Zixiang and Deng, Lilun and Bai, Haowen and Cui, Yukun and Zhang, Zhipeng and Zhang, Yulun and Qin, Haotong and Chen, Dongdong and Zhang, Jiangshe and Wang, Peng and Van Gool, Luc},
+    booktitle = {Proceedings of the 41st International Conference on Machine Learning},
+    series    = {Proceedings of Machine Learning Research},
+    volume    = {235},
+    pages     = {60749--60765},
+    publisher = {PMLR},
+    year      = {2024}
+  }
+
+zhao2024equivariant: |
+  @inproceedings{zhao2024equivariant,
+    title     = {Equivariant Multi-Modality Image Fusion},
+    author    = {Zhao, Zixiang and Bai, Haowen and Zhang, Jiangshe and Zhang, Yulun and Zhang, Kai and Xu, Shuang and Chen, Dongdong and Timofte, Radu and Van Gool, Luc},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    pages     = {25912--25921},
+    year      = {2024},
+    doi       = {10.1109/cvpr52733.2024.02448}
+  }
+
+zhao2023ddfm: |
+  @inproceedings{zhao2023ddfm,
+    title     = {DDFM: Denoising Diffusion Model for Multi-Modality Image Fusion},
+    author    = {Zhao, Zixiang and Bai, Haowen and Zhu, Yuanzhi and Zhang, Jiangshe and Xu, Shuang and Zhang, Yulun and Zhang, Kai and Meng, Deyu and Timofte, Radu and Van Gool, Luc},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    pages     = {8048--8059},
+    year      = {2023},
+    doi       = {10.1109/iccv51070.2023.00742}
+  }
+
+zhao2023cddfuse: |
+  @inproceedings{zhao2023cddfuse,
+    title     = {CDDFuse: Correlation-Driven Dual-Branch Feature Decomposition for Multi-Modality Image Fusion},
+    author    = {Zhao, Zixiang and Bai, Haowen and Zhang, Jiangshe and Zhang, Yulun and Xu, Shuang and Lin, Zudi and Timofte, Radu and Van Gool, Luc},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    pages     = {5906--5916},
+    year      = {2023},
+    doi       = {10.1109/cvpr52729.2023.00572}
+  }
+
+zhao2023deep: |
+  @inproceedings{zhao2023deep,
+    title     = {Deep Convolutional Sparse Coding Networks for Interpretable Image Fusion},
+    author    = {Zhao, Zixiang and Zhang, Jiangshe and Bai, Haowen and Wang, Yicheng and Cui, Yukun and Deng, Lilun and Sun, Kai and Zhang, Chunxia and Liu, Junmin and Xu, Shuang},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    pages     = {2369--2377},
+    year      = {2023},
+    doi       = {10.1109/cvprw59228.2023.00234}
+  }

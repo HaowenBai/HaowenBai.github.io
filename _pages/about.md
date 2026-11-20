@@ -25,11 +25,15 @@ redirect_from:
 {% include_relative _sections/intro.zh.md %}
 </div>
 
+{% comment %} The date the site was last built, i.e. of the last push to GitHub. {% endcomment %}
+<p class="last-updated"><i class="fas fa-history" aria-hidden="true"></i> <span class="lang-en">Last updated: {{ site.time | date: "%Y-%m-%d" }}</span><span class="lang-zh">最近更新：{{ site.time | date: "%Y-%m-%d" }}</span></p>
+
+{% comment %} Only the newest news_shown items (_config.yml) are shown; homepage.js adds a button for the rest. {% endcomment %}
 <div class="anchor" id="news"></div>
-<div class="lang-en" markdown="1">
+<div class="lang-en news" data-shown="{{ site.news_shown | default: 5 }}" markdown="1">
 {% include_relative _sections/news.md %}
 </div>
-<div class="lang-zh" markdown="1">
+<div class="lang-zh news" data-shown="{{ site.news_shown | default: 5 }}" markdown="1">
 {% include_relative _sections/news.zh.md %}
 </div>
 
