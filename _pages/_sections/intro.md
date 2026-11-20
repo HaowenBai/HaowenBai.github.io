@@ -6,5 +6,4 @@ My research focuses on low-level computer vision and multi-source information fu
 
 Email:  
 haowen.bai (at) ntu.edu.sg   
-haowen.bai (at) hotmail.com  
-hwbaii (at) stu.xjtu.edu.cn (will expire)
+haowen.bai (at) hotmail.com

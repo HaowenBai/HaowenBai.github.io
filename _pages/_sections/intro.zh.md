@@ -6,5 +6,4 @@
 
 邮箱：  
 haowen.bai (at) ntu.edu.sg  
-haowen.bai (at) hotmail.com  
-hwbaii (at) stu.xjtu.edu.cn（即将停用）
+haowen.bai (at) hotmail.com
