@@ -69,7 +69,7 @@ html:not([data-lang="zh"]) .lang-zh { display: none !important; }
   }
 }
 
-/* top-bar switches (中文 / EN, light / dark): one button each, both options shown,
+/* top-bar switches (EN / 中文, light / dark): one button each, both options shown,
    the current one highlighted; a click anywhere on the button switches */
 .switch {
   display: inline-flex;

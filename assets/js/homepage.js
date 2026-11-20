@@ -20,7 +20,7 @@
     });
   });
 
-  /* ---- 中文 / EN: CSS also shows .lang-en or .lang-zh accordingly ---- */
+  /* ---- EN / 中文: CSS also shows .lang-en or .lang-zh accordingly ---- */
   document.querySelectorAll('[data-toggle="lang"]').forEach(function (btn) {
     btn.addEventListener('click', function () {
       var lang = root.getAttribute('data-lang') === 'zh' ? 'en' : 'zh';
