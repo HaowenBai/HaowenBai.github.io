@@ -4,7 +4,7 @@
    ========================================================================== */
 
 /* highlights used in _pages/_sections/*.md */
-.me { color: #4371b1; }             /* my name in author lists: a lighter blue than the links, so it stands apart from the black text */
+.me { color: $link-color; }         /* my name in author lists: the same blue as the links ($info-color in _variables.scss) */
 .hl { color: red; }                 /* Spotlight / Highlight / Oral */
 
 /* venue tags in Collaborative Works (`CVPR 2023` in pub.md): a soft version of the blue badges on the paper images */
@@ -174,9 +174,10 @@ html[data-theme="dark"] {
 
   h1, h2, h3, h4, h5, h6, strong, b { color: $dk-strong; }
   a { color: $dk-link; }
+  a strong, a b { color: inherit; }  /* bold links ([**Paper**](…)) stay link-blue instead of white */
   a:hover { color: $dk-link-hover; }
   hr, .page__content h1 { border-color: $dk-border; }
-  .me, .me strong { color: #79b8ff; }
+  .me, .me strong { color: $dk-link; }  /* the same blue as the links, as in light mode */
   .hl { color: #ff7b72; }
   .last-updated i { color: $dk-link; }
 
