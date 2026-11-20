@@ -65,7 +65,7 @@ IEEE Transactions on Circuits and Systems for Video Technology (**TCSVT**), 35(4
 
 **ReFusion: Learning Image Fusion from Reconstruction with Learnable Loss Via Meta-Learning**
 
-International Journal of Computer Vision (**IJCV**), pp.1-23, 2024.
+International Journal of Computer Vision (**IJCV**), 133(5), pp. 2547-2567, 2024.
 
 <span class="me">**Haowen Bai**</span>, Zixiang Zhao\*, Jiangshe Zhang\*, Yichen Wu, Lilun Deng, Yukun Cui, Baisong Jiang, Shuang Xu
 
@@ -100,7 +100,7 @@ IEEE Transactions on Geoscience and Remote Sensing (**TGRS**), 62, pp. 1-12, 202
 Neural Information Processing Systems (**NeurIPS**), 2025.  
 Zixiang Zhao, <span class="me">**Haowen Bai**</span>, Bingxin Ke, Yukun Cui, Lilun Deng, Yulun Zhang, Kai Zhang, Konrad Schindler  
 [**Project Page**](https://vfbench.github.io) \|
-**Paper** \| 
+[**Paper**](https://neurips.cc/virtual/2025/loc/san-diego/poster/116108) \| 
 [**ArXiv**](https://arxiv.org/abs/2505.19858) \| 
 [**Code**](https://github.com/Zhaozixiang1228/VF-Bench) 
 
@@ -108,9 +108,9 @@ Zixiang Zhao, <span class="me">**Haowen Bai**</span>, Bingxin Ke, Yukun Cui, Lil
 - ``ICCV 2025`` **Hipandas: Hyperspectral Image Joint Denoising and Super-Resolution by Image Fusion with the Panchromatic Image**   
 IEEE/CVF International Conference on Computer Vision (**ICCV**), 2025.  
 Shuang Xu, Zixiang Zhao, <span class="me">**Haowen Bai**</span>, Chang Yu, Jiangjun Peng, Xiangyong Cao, Deyu Meng  
-**Paper** \| 
-**ArXiv** \| 
-**Code**
+[**Paper**](https://openaccess.thecvf.com/content/ICCV2025/html/Xu_Hipandas_Hyperspectral_Image_Joint_Denoising_and_Super-Resolution_by_Image_Fusion_ICCV_2025_paper.html) \| 
+[**ArXiv**](https://arxiv.org/abs/2412.04201) \| 
+[**Code**](https://github.com/shuangxu96/Hipandas)
 
 - ``ICML 2024`` **Image fusion via vision-language model**   
 Forty-first International Conference on Machine Learning (**ICML**), 2024.  
